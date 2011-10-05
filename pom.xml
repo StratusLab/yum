@@ -22,6 +22,7 @@
   <properties>
     <nexus.release.repository.name>fedora-14-releases</nexus.release.repository.name>
     <nexus.snapshot.repository.name>fedora-14-snapshots</nexus.snapshot.repository.name>
+    <nexus.externals.repository.name>fedora-14-externals</nexus.externals.repository.name>
   </properties>
 
   <licenses>
