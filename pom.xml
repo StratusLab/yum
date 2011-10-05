@@ -275,19 +275,7 @@
       <dependency>
 	<groupId>eu.stratuslab.externals</groupId>
 	<artifactId>ganglia-gmetad</artifactId>
-	<version>3.0.7-1.el5.x86_64</version>
-	<type>rpm</type>
-      </dependency>
-      <dependency>
-	<groupId>eu.stratuslab.externals</groupId>
-	<artifactId>ganglia-gmetad</artifactId>
 	<version>3.1.7-1.x86_64</version>
-	<type>rpm</type>
-      </dependency>
-      <dependency>
-	<groupId>eu.stratuslab.externals</groupId>
-	<artifactId>ganglia-gmond</artifactId>
-	<version>3.0.7-1.el5.x86_64</version>
 	<type>rpm</type>
       </dependency>
       <dependency>
@@ -300,12 +288,6 @@
 	<groupId>eu.stratuslab.externals</groupId>
 	<artifactId>ganglia-gmond-modules-python</artifactId>
 	<version>3.1.7-1.x86_64</version>
-	<type>rpm</type>
-      </dependency>
-      <dependency>
-	<groupId>eu.stratuslab.externals</groupId>
-	<artifactId>ganglia-web</artifactId>
-	<version>3.0.7-1.el5.x86_64</version>
 	<type>rpm</type>
       </dependency>
       <dependency>
@@ -647,27 +629,12 @@
 		</artifactItem>
 		<artifactItem>
 		  <groupId>eu.stratuslab.externals</groupId>
-		  <artifactId>ganglia-gmetad</artifactId>
-		  <type>rpm</type>
-		</artifactItem>
-		<artifactItem>
-		  <groupId>eu.stratuslab.externals</groupId>
-		  <artifactId>ganglia-gmond</artifactId>
-		  <type>rpm</type>
-		</artifactItem>
-		<artifactItem>
-		  <groupId>eu.stratuslab.externals</groupId>
 		  <artifactId>ganglia-gmond</artifactId>
 		  <type>rpm</type>
 		</artifactItem>
 		<artifactItem>
 		  <groupId>eu.stratuslab.externals</groupId>
 		  <artifactId>ganglia-gmond-modules-python</artifactId>
-		  <type>rpm</type>
-		</artifactItem>
-		<artifactItem>
-		  <groupId>eu.stratuslab.externals</groupId>
-		  <artifactId>ganglia-web</artifactId>
 		  <type>rpm</type>
 		</artifactItem>
 		<artifactItem>
