@@ -166,6 +166,12 @@
       <artifactId>clotho-rpm</artifactId>
       <version>0.1.8-SNAPSHOT</version>
       <type>rpm</type>
+      <exclusions>
+        <exclusion>
+          <groupId>eu.stratuslab.pkgs.claudia</groupId>
+          <artifactId>clotho</artifactId>
+        </exclusion>
+      </exclusions>
     </dependency>
     <dependency>
       <groupId>eu.stratuslab.pkgs.claudia</groupId>
@@ -529,6 +535,9 @@
 
       <plugin>
         <artifactId>maven-dependency-plugin</artifactId>
+        <configuration>
+          <excludeTransitive>true</excludeTransitive>
+        </configuration>
         <executions>
           <execution>
             <id>copy-rpms</id>
@@ -632,37 +641,36 @@
                   <artifactId>storage-pdisk-server-rpm</artifactId>
                   <type>rpm</type>
                 </artifactItem>
-                <artifactId>
+                <artifactItem>
                   <groupId>org.quattor.cfg.module</groupId>
                   <artifactId>claudia</artifactId>
-                  <version>1.5-SNAPSHOT</version>
                   <classifier>rpm</classifier>
                   <type>rpm</type>
-                </artifactId>
-                <artifactId>
+                </artifactItem>
+                <artifactItem>
                   <groupId>org.quattor.cfg.module</groupId>
                   <artifactId>ganglia</artifactId>
                   <classifier>rpm</classifier>
                   <type>rpm</type>
-                </artifactId>
-                <artifactId>
+                </artifactItem>
+                <artifactItem>
                   <groupId>org.quattor.cfg.module</groupId>
                   <artifactId>libvirtd</artifactId>
                   <classifier>rpm</classifier>
                   <type>rpm</type>
-                </artifactId>
-                <artifactId>
+                </artifactItem>
+                <artifactItem>
                   <groupId>org.quattor.cfg.module</groupId>
                   <artifactId>oned</artifactId>
                   <classifier>rpm</classifier>
                   <type>rpm</type>
-                </artifactId>
-                <artifactId>
+                </artifactItem>
+                <artifactItem>
                   <groupId>org.quattor.cfg.module</groupId>
                   <artifactId>one_proxy</artifactId>
                   <classifier>rpm</classifier>
                   <type>rpm</type>
-                </artifactId>
+                </artifactItem>
 
                 <!-- EXTERNALS -->
                 <artifactItem>
