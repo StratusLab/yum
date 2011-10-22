@@ -1,0 +1,21 @@
+<assembly>
+  <id>distribution</id>
+  
+  <includeBaseDirectory>false</includeBaseDirectory>
+  
+  <formats>
+    <format>tar.gz</format>
+  </formats>
+  
+  <fileSets>
+
+    <fileSet>
+      <outputDirectory>/</outputDirectory>
+      <directoryMode>755</directoryMode>
+      <fileMode>644</fileMode>
+      <directory>target/yum</directory>
+    </fileSet>
+
+  </fileSets>
+  
+</assembly>
