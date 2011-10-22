@@ -233,7 +233,13 @@
 	<version>1.2-SNAPSHOT</version>
 	<type>rpm</type>
       </dependency>
-
+      <dependency>
+        <groupId>org.quattor.cfg.module</groupId>
+        <artifactId>libvirtd</artifactId>
+        <version>1.10-SNAPSHOT</version>
+        <type>rpm</type>
+      </dependency>
+ 
       <!-- EXTERNALS -->
       <dependency>
 	<groupId>eu.stratuslab.externals</groupId>
@@ -587,6 +593,11 @@
 		  <artifactId>storage-pdisk-server-rpm</artifactId>
 		  <type>rpm</type>
 		</artifactItem>
+                <artifactItem>
+                  <groupId>org.quattor.cfg.module</groupId>
+                  <artifactId>libvirtd</artifactId>
+                  <type>rpm</type>
+                </artifactItem>
 
 		<!-- EXTERNALS -->
 		<artifactItem>
