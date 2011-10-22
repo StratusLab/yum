@@ -1,5 +1,7 @@
 #!/bin/sh -xe
 
+echo "PRE BUILD"
+
 # Force repository back to master.
 git checkout ${GIT_BRANCH}
 
