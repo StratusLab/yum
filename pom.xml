@@ -124,7 +124,6 @@
     </site>
   </distributionManagement>
 
-  <dependencyManagement>
     <dependencies>
       <dependency>
 	<groupId>eu.stratuslab.authn</groupId>
@@ -375,8 +374,6 @@
 	<type>rpm</type>
       </dependency>
     </dependencies>
-
-  </dependencyManagement>
 
   <build>
 
