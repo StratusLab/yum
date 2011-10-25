@@ -13,6 +13,7 @@
 
   <modules>
     <module>complete</module>
+    <module>marketplace</module>
   </modules>
 
   <url>http://stratuslab.eu</url>
