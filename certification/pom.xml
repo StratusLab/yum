@@ -296,6 +296,7 @@
             <configuration>
               <includeTypes>rpm</includeTypes>
               <excludeTransitive>true</excludeTransitive>
+              <excludeArtifactIds>authn-config-rpm</excludeArtifactIds>
             </configuration>
           </execution>
         </executions>
