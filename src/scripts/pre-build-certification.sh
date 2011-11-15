@@ -6,7 +6,8 @@ echo "PRE BUILD"
 git checkout ${GIT_BRANCH}
 
 # Replace SNAPSHOT versions.
-sed -i '' 's%<version>.*-SNAPSHOT</version>%<version>0.0</version>%' pom.xml
+sed 's%<version>.*-SNAPSHOT</version>%<version>0.0</version>%' pom.xml > pom2.xml
+mv -f pom2.xml pom.xml
 
 # Update to use latest defined versions.
 mvn versions:use-latest-releases -DgenerateBackupPoms=false
