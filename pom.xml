@@ -508,9 +508,25 @@
         <plugin>
           <groupId>org.codehaus.mojo</groupId>
           <artifactId>exec-maven-plugin</artifactId>
-          <version>1.2</version>
+          <version>1.2.1</version>
+          <executions>
+            <execution>
+              <id>create-yum-repo</id>
+              <phase>package</phase>
+              <configuration>
+                <executable>../src/scripts/create-yum-repo.pl</executable>
+                <arguments>
+                  <argument>${basedir}/target/dependency</argument>
+                  <argument>${basedir}/target/yum</argument>
+                </arguments>
+              </configuration>
+              <goals>
+                <goal>exec</goal>
+              </goals>
+            </execution>
+          </executions>
         </plugin>
-
+      
         <plugin>
           <groupId>org.codehaus.mojo</groupId>
           <artifactId>findbugs-maven-plugin</artifactId>
