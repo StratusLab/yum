@@ -278,23 +278,6 @@
 
       <plugin>
         <artifactId>maven-dependency-plugin</artifactId>
-        <configuration>
-          <excludeTransitive>true</excludeTransitive>
-        </configuration>
-        <executions>
-          <execution>
-            <id>copy-rpms</id>
-            <phase>prepare-package</phase>
-            <goals>
-              <goal>copy-dependencies</goal>
-            </goals>
-            <configuration>
-              <includeTypes>rpm</includeTypes>
-              <excludeTransitive>true</excludeTransitive>
-              <excludeArtifactIds>authn-config-rpm</excludeArtifactIds>
-            </configuration>
-          </execution>
-        </executions>
       </plugin>
 
       <plugin>
