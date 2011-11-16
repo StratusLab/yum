@@ -51,63 +51,11 @@
 
       <plugin>
         <artifactId>maven-dependency-plugin</artifactId>
-        <configuration>
-          <excludeTransitive>true</excludeTransitive>
-        </configuration>
-        <executions>
-          <execution>
-            <id>copy-rpms</id>
-            <phase>prepare-package</phase>
-            <configuration>
-              <includeTypes>rpm</includeTypes>
-              <excludeTransitive>true</excludeTransitive>
-              <artifactItems>
-                <artifactItem>
-                  <groupId>eu.stratuslab.marketplace</groupId>
-                  <artifactId>marketplace-server-rpm</artifactId>
-                  <type>rpm</type>
-                </artifactItem>
-                <artifactItem>
-                  <groupId>eu.stratuslab.pkgs</groupId>
-                  <artifactId>stratuslab-cli-sysadmin-rpm</artifactId>
-                  <type>rpm</type>
-                </artifactItem>
-                <artifactItem>
-                  <groupId>eu.stratuslab.pkgs</groupId>
-                  <artifactId>stratuslab-cli-user-rpm</artifactId>
-                  <type>rpm</type>
-                </artifactItem>
-
-              </artifactItems>
-
-            </configuration>
-            <goals>
-              <goal>copy</goal>
-            </goals>
-          </execution>
-        </executions>
       </plugin>
 
       <plugin>
         <groupId>org.codehaus.mojo</groupId>
         <artifactId>exec-maven-plugin</artifactId>
-        <version>1.2.1</version>
-        <executions>
-          <execution>
-            <id>create-yum-repo</id>
-            <phase>package</phase>
-            <configuration>
-              <executable>../src/scripts/create-yum-repo.pl</executable>
-              <arguments>
-                <argument>${basedir}/target/dependency</argument>
-                <argument>${basedir}/target/yum</argument>
-              </arguments>
-            </configuration>
-            <goals>
-              <goal>exec</goal>
-            </goals>
-          </execution>
-        </executions>
       </plugin>
       
     </plugins>
