@@ -172,6 +172,7 @@
         <artifactId>clotho-rpm</artifactId>
         <version>0.1.8-SNAPSHOT</version>
         <type>rpm</type>
+        <classifier>rpm</classifier>
         <exclusions>
           <exclusion>
             <groupId>eu.stratuslab.pkgs.claudia</groupId>
