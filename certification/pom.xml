@@ -51,6 +51,7 @@
       <groupId>eu.stratuslab.pkgs.claudia</groupId>
       <artifactId>clotho-rpm</artifactId>
       <type>rpm</type>
+      <classifier>rpm</classifier>
       <exclusions>
         <exclusion>
           <groupId>eu.stratuslab.pkgs.claudia</groupId>
