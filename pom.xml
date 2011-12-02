@@ -185,12 +185,28 @@
         <artifactId>reportclient-rpm</artifactId>
         <version>0.1.8-SNAPSHOT</version>
         <type>rpm</type>
+        <exclusions>
+          <exclusion>
+            <groupId>eu.stratuslab.pkgs.claudia</groupId>
+            <artifactId>reportclient</artifactId>
+            <type>zip</type>
+            <classifier>zip</classifier>
+          </exclusion>
+        </exclusions>
       </dependency>
       <dependency>
         <groupId>eu.stratuslab.pkgs.claudia</groupId>
         <artifactId>tcloud-server-rpm</artifactId>
         <version>0.1.8-SNAPSHOT</version>
         <type>rpm</type>
+        <exclusions>
+          <exclusion>
+            <groupId>eu.stratuslab.pkgs.claudia</groupId>
+            <artifactId>tcloud-server</artifactId>
+            <type>zip</type>
+            <classifier>environment</classifier>
+          </exclusion>
+        </exclusions>
       </dependency>
       <dependency>
         <groupId>eu.stratuslab.pkgs</groupId>
@@ -209,6 +225,14 @@
         <artifactId>stratuslab-cli-sysadmin-rpm</artifactId>
         <version>1.10-SNAPSHOT</version>
         <type>rpm</type>
+        <exclusions>
+          <exclusion>
+            <groupId>eu.stratuslab.pkgs</groupId>
+            <artifactId>stratuslab-cli-sysadmin-zip</artifactId>
+            <type>zip</type>
+            <classifier>cli-sysadmin-bundle</classifier>
+          </exclusion>
+        </exclusions>
       </dependency>
       <dependency>
         <groupId>eu.stratuslab.pkgs</groupId>
