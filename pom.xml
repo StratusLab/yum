@@ -480,10 +480,7 @@
               <configuration>
                 <actTransitively>false</actTransitively>
                 <excludes>
-                  <exclude>
-                    <groupId>eu.stratuslab.yum</groupId>
-                    <artifactId>yum-complete</artifactId>
-                  </exclude>
+                  <exclude>eu.stratuslab.yum:yum-complete</exclude>
                 </excludes>
               </configuration>
             </execution>
