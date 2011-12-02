@@ -479,6 +479,12 @@
               </goals>
               <configuration>
                 <actTransitively>false</actTransitively>
+                <excludes>
+                  <exclude>
+                    <groupId>eu.stratuslab.yum</groupId>
+                    <artifactId>yum-complete</artifactId>
+                  </exclude>
+                </excludes>
               </configuration>
             </execution>
             <execution>
