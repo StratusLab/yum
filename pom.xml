@@ -233,6 +233,12 @@
         <artifactId>stratuslab-cli-user-rpm</artifactId>
         <version>1.10-SNAPSHOT</version>
         <type>rpm</type>
+        <exclusions>
+          <exclusion>
+            <groupId>eu.stratuslab.pkgs</groupId>
+            <artifactId>stratuslab-cli-user-zip</artifactId>
+          </exclusion>
+        </exclusions>
       </dependency>
       <dependency>
         <groupId>eu.stratuslab.pkgs</groupId>
