@@ -448,6 +448,16 @@
           </configuration>
           <executions>
             <execution>
+              <id>purge-repository</id>
+              <phase>generate-sources</phase>
+              <goals>
+                <goal>purge-local-repository</goal>
+              </goals>
+              <configuration>
+                <actTransitively>false</actTransitively>
+              </configuration>
+            </execution>
+            <execution>
               <id>copy-rpms</id>
               <phase>prepare-package</phase>
               <goals>
