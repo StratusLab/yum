@@ -233,37 +233,7 @@
     </dependency>
     <dependency>
       <groupId>eu.stratuslab.externals</groupId>
-      <artifactId>ruby</artifactId>
-      <type>rpm</type>
-    </dependency>
-    <dependency>
-      <groupId>eu.stratuslab.externals</groupId>
-      <artifactId>ruby-debuginfo</artifactId>
-      <type>rpm</type>
-    </dependency>
-    <dependency>
-      <groupId>eu.stratuslab.externals</groupId>
-      <artifactId>ruby-devel</artifactId>
-      <type>rpm</type>
-    </dependency>
-    <dependency>
-      <groupId>eu.stratuslab.externals</groupId>
-      <artifactId>ruby-docs</artifactId>
-      <type>rpm</type>
-    </dependency>
-    <dependency>
-      <groupId>eu.stratuslab.externals</groupId>
       <artifactId>rubygem-sequel</artifactId>
-      <type>rpm</type>
-    </dependency>
-    <dependency>
-      <groupId>eu.stratuslab.externals</groupId>
-      <artifactId>rubygem-sqlite3-ruby</artifactId>
-      <type>rpm</type>
-    </dependency>
-    <dependency>
-      <groupId>eu.stratuslab.externals</groupId>
-      <artifactId>rubygems</artifactId>
       <type>rpm</type>
     </dependency>
   </dependencies>
