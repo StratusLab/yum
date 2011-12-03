@@ -479,8 +479,9 @@
               </goals>
               <configuration>
                 <actTransitively>false</actTransitively>
+                <resolutionFuzziness>version</resolutionFuzziness>
                 <excludes>
-                  <exclude>eu.stratuslab.yum:yum-complete</exclude>
+                  <exclude>eu.stratuslab.yum:*</exclude>
                 </excludes>
               </configuration>
             </execution>
