@@ -114,6 +114,7 @@
       <artifactId>storage-pdisk-server-rpm</artifactId>
       <type>rpm</type>
     </dependency>
+<!--
     <dependency>
       <groupId>org.quattor.cfg.module</groupId>
       <artifactId>claudia</artifactId>
@@ -144,6 +145,7 @@
       <classifier>rpm</classifier>
       <type>rpm</type>
     </dependency>
+-->
     
     <!-- EXTERNALS -->
     <dependency>
