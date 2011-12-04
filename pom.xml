@@ -483,6 +483,10 @@
                 <reResolve>false</reResolve>
                 <excludes>
                   <exclude>eu.stratuslab.yum:yum-complete</exclude>
+                  <exclude>eu.stratuslab.yum:yum-user-cli</exclude>
+                  <exclude>eu.stratuslab.yum:yum-marketplace</exclude>
+                  <exclude>eu.stratuslab.yum:yum-registration</exclude>
+                  <exclude>eu.stratuslab.yum:yum-certification</exclude>
                 </excludes>
                 
                 <includeTypes>rpm</includeTypes>

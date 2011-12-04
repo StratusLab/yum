@@ -6,8 +6,8 @@
 
   <modelVersion>4.0.0</modelVersion>
   
-  <artifactId>yum-complete</artifactId>
-  <name>YUM Complete (POM)</name>
+  <artifactId>yum-certification</artifactId>
+  <name>YUM Certification (POM)</name>
 
   <packaging>pom</packaging>
 
