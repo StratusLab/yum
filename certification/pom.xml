@@ -145,8 +145,8 @@
       <classifier>rpm</classifier>
       <type>rpm</type>
     </dependency>
--->
-    
+-->    
+
     <!-- EXTERNALS -->
     <dependency>
       <groupId>eu.stratuslab.externals</groupId>
@@ -163,6 +163,7 @@
       <artifactId>apacheds</artifactId>
       <type>rpm</type>
     </dependency>
+<!--
     <dependency>
       <groupId>eu.stratuslab.externals</groupId>
       <artifactId>ganglia</artifactId>
@@ -198,16 +199,20 @@
       <artifactId>ganglia-web</artifactId>
       <type>rpm</type>
     </dependency>
+-->
     <dependency>
       <groupId>eu.stratuslab.externals</groupId>
       <artifactId>iscsitarget</artifactId>
       <type>rpm</type>
     </dependency>
+<!--
     <dependency>
       <groupId>eu.stratuslab.externals</groupId>
       <artifactId>libganglia-3_1_0</artifactId>
       <type>rpm</type>
     </dependency>
+-->
+<!--
     <dependency>
       <groupId>eu.stratuslab.externals</groupId>
       <artifactId>perl-DateTime</artifactId>
@@ -228,39 +233,10 @@
       <artifactId>perl-Readonly</artifactId>
       <type>rpm</type>
     </dependency>
-    <dependency>
-      <groupId>eu.stratuslab.externals</groupId>
-      <artifactId>ruby</artifactId>
-      <type>rpm</type>
-    </dependency>
-    <dependency>
-      <groupId>eu.stratuslab.externals</groupId>
-      <artifactId>ruby-debuginfo</artifactId>
-      <type>rpm</type>
-    </dependency>
-    <dependency>
-      <groupId>eu.stratuslab.externals</groupId>
-      <artifactId>ruby-devel</artifactId>
-      <type>rpm</type>
-    </dependency>
-    <dependency>
-      <groupId>eu.stratuslab.externals</groupId>
-      <artifactId>ruby-docs</artifactId>
-      <type>rpm</type>
-    </dependency>
+-->
     <dependency>
       <groupId>eu.stratuslab.externals</groupId>
       <artifactId>rubygem-sequel</artifactId>
-      <type>rpm</type>
-    </dependency>
-    <dependency>
-      <groupId>eu.stratuslab.externals</groupId>
-      <artifactId>rubygem-sqlite3-ruby</artifactId>
-      <type>rpm</type>
-    </dependency>
-    <dependency>
-      <groupId>eu.stratuslab.externals</groupId>
-      <artifactId>rubygems</artifactId>
       <type>rpm</type>
     </dependency>
   </dependencies>

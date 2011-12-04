@@ -119,6 +119,7 @@
       <artifactId>storage-pdisk-server-rpm</artifactId>
       <type>rpm</type>
     </dependency>
+<!--
     <dependency>
       <groupId>org.quattor.cfg.module</groupId>
       <artifactId>claudia</artifactId>
@@ -149,6 +150,7 @@
       <classifier>rpm</classifier>
       <type>rpm</type>
     </dependency>
+-->
     
     <!-- EXTERNALS -->
     <dependency>
@@ -166,6 +168,7 @@
       <artifactId>apacheds</artifactId>
       <type>rpm</type>
     </dependency>
+<!--
     <dependency>
       <groupId>eu.stratuslab.externals</groupId>
       <artifactId>ganglia</artifactId>
@@ -203,14 +206,16 @@
     </dependency>
     <dependency>
       <groupId>eu.stratuslab.externals</groupId>
-      <artifactId>iscsitarget</artifactId>
-      <type>rpm</type>
-    </dependency>
-    <dependency>
-      <groupId>eu.stratuslab.externals</groupId>
       <artifactId>libganglia-3_1_0</artifactId>
       <type>rpm</type>
     </dependency>
+-->
+    <dependency>
+      <groupId>eu.stratuslab.externals</groupId>
+      <artifactId>iscsitarget</artifactId>
+      <type>rpm</type>
+    </dependency>
+<!--
     <dependency>
       <groupId>eu.stratuslab.externals</groupId>
       <artifactId>perl-DateTime</artifactId>
@@ -231,6 +236,7 @@
       <artifactId>perl-Readonly</artifactId>
       <type>rpm</type>
     </dependency>
+-->
     <dependency>
       <groupId>eu.stratuslab.externals</groupId>
       <artifactId>rubygem-sequel</artifactId>
