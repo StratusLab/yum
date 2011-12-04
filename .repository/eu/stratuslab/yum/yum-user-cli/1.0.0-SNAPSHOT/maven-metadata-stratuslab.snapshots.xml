@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>eu.stratuslab.yum</groupId>
+  <artifactId>yum-user-cli</artifactId>
+  <version>1.0.0-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20111204.151409</timestamp>
+      <buildNumber>69</buildNumber>
+    </snapshot>
+    <lastUpdated>20111204151410</lastUpdated>
+  </versioning>
+</metadata>
