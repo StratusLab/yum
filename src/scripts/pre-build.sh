@@ -4,7 +4,7 @@ echo "PRE BUILD"
 
 # Force repository back to master.
 git checkout ${GIT_BRANCH}
-git pull
+#git pull
 
 # Update to use latest defined versions.
 mvn versions:use-latest-versions
