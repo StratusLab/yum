@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project 
+    xmlns="http://maven.apache.org/POM/4.0.0" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+  
+  <artifactId>yum-one-3.0</artifactId>
+  <name>OpenNebula 3.0 (POM)</name>
+
+  <packaging>pom</packaging>
+
+  <parent>
+    <groupId>eu.stratuslab.yum</groupId>
+    <artifactId>yum</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+  </parent>
+
+  <description>
+    Create yum repository for StratusLab OpenNebula 3.0 packages.
+  </description>
+
+  <dependencies>
+
+    <dependency>
+      <groupId>eu.stratuslab.one3</groupId>
+      <artifactId>one-3.0-StratusLab-rpm</artifactId>
+      <type>rpm</type>
+    </dependency>
+    <dependency>
+      <groupId>eu.stratuslab.one3</groupId>
+      <artifactId>stratuslab-cli-sysadmin</artifactId>
+      <type>rpm</type>
+    </dependency>
+
+    <!-- EXTERNALS 
+    pdisk-server
+     -->
+    
+  </dependencies>
+
+  <build>
+
+    <plugins>
+
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>versions-maven-plugin</artifactId>
+      </plugin>
+
+      <plugin>
+        <artifactId>maven-dependency-plugin</artifactId>
+      </plugin>
+
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>exec-maven-plugin</artifactId>
+      </plugin>
+      
+    </plugins>
+
+  </build>
+
+</project>
