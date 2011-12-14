@@ -606,6 +606,7 @@
         <configuration>
           <allowMinorUpdates>true</allowMinorUpdates>
           <allowSnapshots>true</allowSnapshots>
+          <generateBackupPoms>false</generateBackupPoms>
         </configuration>
       </plugin>
     </plugins>
