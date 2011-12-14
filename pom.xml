@@ -603,6 +603,10 @@
       <plugin>
         <groupId>org.codehaus.mojo</groupId>
         <artifactId>versions-maven-plugin</artifactId>
+        <configuration>
+          <allowMinorUpdates>true</allowMinorUpdates>
+          <allowSnapshots>true</allowSnapshots>
+        </configuration>
       </plugin>
     </plugins>
 
