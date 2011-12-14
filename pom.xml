@@ -134,43 +134,43 @@
       <dependency>
         <groupId>eu.stratuslab.authn</groupId>
         <artifactId>authn-claudia-proxy-rpm</artifactId>
-        <version>1.0.2-SNAPSHOT</version>
+        <version>1.0.3-SNAPSHOT</version>
         <type>rpm</type>
       </dependency>
       <dependency>
         <groupId>eu.stratuslab.authn</groupId>
         <artifactId>authn-config-rpm</artifactId>
-        <version>1.0.2-SNAPSHOT</version>
+        <version>1.0.3-SNAPSHOT</version>
         <type>rpm</type>
       </dependency>
       <dependency>
         <groupId>eu.stratuslab.authn</groupId>
         <artifactId>authn-one-proxy-rpm</artifactId>
-        <version>1.0.2-SNAPSHOT</version>
+        <version>1.0.3-SNAPSHOT</version>
         <type>rpm</type>
       </dependency>
       <dependency>
         <groupId>eu.stratuslab.marketplace</groupId>
         <artifactId>marketplace-server-rpm</artifactId>
-        <version>1.0.3-SNAPSHOT</version>
+        <version>1.0.4-SNAPSHOT</version>
         <type>rpm</type>
       </dependency>
       <dependency>
         <groupId>eu.stratuslab.pkgs</groupId>
         <artifactId>benchmarks</artifactId>
-        <version>1.9-SNAPSHOT</version>
+        <version>1.10-SNAPSHOT</version>
         <type>rpm</type>
       </dependency>
       <dependency>
         <groupId>eu.stratuslab.pkgs.claudia</groupId>
         <artifactId>claudia-client-rpm</artifactId>
-        <version>0.1.8-SNAPSHOT</version>
+        <version>0.1.9-SNAPSHOT</version>
         <type>rpm</type>
       </dependency>
       <dependency>
         <groupId>eu.stratuslab.pkgs.claudia</groupId>
         <artifactId>clotho-rpm</artifactId>
-        <version>0.1.8-SNAPSHOT</version>
+        <version>0.1.9-SNAPSHOT</version>
         <type>rpm</type>
         <classifier>rpm</classifier>
         <exclusions>
@@ -183,7 +183,7 @@
       <dependency>
         <groupId>eu.stratuslab.pkgs.claudia</groupId>
         <artifactId>reportclient-rpm</artifactId>
-        <version>0.1.8-SNAPSHOT</version>
+        <version>0.1.9-SNAPSHOT</version>
         <type>rpm</type>
         <exclusions>
           <exclusion>
@@ -195,7 +195,7 @@
       <dependency>
         <groupId>eu.stratuslab.pkgs.claudia</groupId>
         <artifactId>tcloud-server-rpm</artifactId>
-        <version>0.1.8-SNAPSHOT</version>
+        <version>0.1.9-SNAPSHOT</version>
         <type>rpm</type>
         <exclusions>
           <exclusion>
@@ -207,13 +207,13 @@
       <dependency>
         <groupId>eu.stratuslab.pkgs</groupId>
         <artifactId>one-2.2-StratusLab-rpm</artifactId>
-        <version>1.0.1-SNAPSHOT</version>
+        <version>1.0.2-SNAPSHOT</version>
         <type>rpm</type>
       </dependency>
       <dependency>
         <groupId>eu.stratuslab.pkgs</groupId>
         <artifactId>quarantine-cleanup-rpm</artifactId>
-        <version>1.0.1-SNAPSHOT</version>
+        <version>1.0.2-SNAPSHOT</version>
         <type>rpm</type>
       </dependency>
       <dependency>
@@ -273,35 +273,35 @@
       <dependency>
         <groupId>org.quattor.cfg.module</groupId>
         <artifactId>claudia</artifactId>
-        <version>1.5-SNAPSHOT</version>
+        <version>1.6-SNAPSHOT</version>
         <classifier>rpm</classifier>
         <type>rpm</type>
       </dependency>
       <dependency>
         <groupId>org.quattor.cfg.module</groupId>
         <artifactId>ganglia</artifactId>
-        <version>1.0.5-SNAPSHOT</version>
+        <version>1.0.6-SNAPSHOT</version>
         <classifier>rpm</classifier>
         <type>rpm</type>
       </dependency>
       <dependency>
         <groupId>org.quattor.cfg.module</groupId>
         <artifactId>libvirtd</artifactId>
-        <version>1.10-SNAPSHOT</version>
+        <version>1.11-SNAPSHOT</version>
         <classifier>rpm</classifier>
         <type>rpm</type>
       </dependency>
       <dependency>
         <groupId>org.quattor.cfg.module</groupId>
         <artifactId>oned</artifactId>
-        <version>1.10-SNAPSHOT</version>
+        <version>1.11-SNAPSHOT</version>
         <classifier>rpm</classifier>
         <type>rpm</type>
       </dependency>
       <dependency>
         <groupId>org.quattor.cfg.module</groupId>
         <artifactId>one_proxy</artifactId>
-        <version>1.10-SNAPSHOT</version>
+        <version>1.11-SNAPSHOT</version>
         <classifier>rpm</classifier>
         <type>rpm</type>
       </dependency>
