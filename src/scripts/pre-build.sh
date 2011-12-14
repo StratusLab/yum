@@ -6,8 +6,8 @@ echo "PRE BUILD"
 git checkout ${GIT_BRANCH}
 git pull
 
-# Update to use latest defined versions.
-mvn versions:use-latest-versions
+# Update to use latest defined snapshots.
+mvn versions:use-latest-snapshots
 mvn versions:commit
 
 # Push any changes back into repository.
