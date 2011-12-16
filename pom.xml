@@ -219,7 +219,7 @@
       <dependency>
         <groupId>eu.stratuslab.pkgs</groupId>
         <artifactId>stratuslab-cli-sysadmin-rpm</artifactId>
-        <version>1.12-SNAPSHOT</version>
+        <version>1.12</version>
         <type>rpm</type>
         <exclusions>
           <exclusion>
@@ -231,7 +231,7 @@
       <dependency>
         <groupId>eu.stratuslab.pkgs</groupId>
         <artifactId>stratuslab-cli-user-rpm</artifactId>
-        <version>1.12-SNAPSHOT</version>
+        <version>1.12</version>
         <type>rpm</type>
         <exclusions>
           <exclusion>
@@ -243,7 +243,7 @@
       <dependency>
         <groupId>eu.stratuslab.pkgs</groupId>
         <artifactId>stratuslab-web-monitor-rpm</artifactId>
-        <version>1.12-SNAPSHOT</version>
+        <version>1.12</version>
         <type>rpm</type>
       </dependency>
       <dependency>
