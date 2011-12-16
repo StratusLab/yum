@@ -152,7 +152,7 @@
       <dependency>
         <groupId>eu.stratuslab.marketplace</groupId>
         <artifactId>marketplace-server-rpm</artifactId>
-        <version>1.0.4</version>
+        <version>1.0.5-SNAPSHOT</version>
         <type>rpm</type>
       </dependency>
       <dependency>
