@@ -273,7 +273,7 @@
       <dependency>
         <groupId>org.quattor.cfg.module</groupId>
         <artifactId>claudia</artifactId>
-        <version>1.6-SNAPSHOT</version>
+        <version>1.6</version>
         <classifier>rpm</classifier>
         <type>rpm</type>
       </dependency>
@@ -301,7 +301,7 @@
       <dependency>
         <groupId>org.quattor.cfg.module</groupId>
         <artifactId>one_proxy</artifactId>
-        <version>1.11-SNAPSHOT</version>
+        <version>1.11</version>
         <classifier>rpm</classifier>
         <type>rpm</type>
       </dependency>
