@@ -29,22 +29,7 @@
     </dependency>
     <dependency>
       <groupId>eu.stratuslab.pkgs</groupId>
-      <artifactId>stratuslab-cli-sysadmin-rpm</artifactId>
-      <type>rpm</type>
-    </dependency>
-    <dependency>
-      <groupId>eu.stratuslab.pkgs</groupId>
       <artifactId>stratuslab-cli-user-rpm</artifactId>
-      <type>rpm</type>
-    </dependency>
-    <dependency>
-      <groupId>eu.stratuslab.pkgs</groupId>
-      <artifactId>one-2.2-StratusLab-rpm</artifactId>
-      <type>rpm</type>
-    </dependency>
-    <dependency>
-      <groupId>eu.stratuslab.pkgs</groupId>
-      <artifactId>quarantine-cleanup-rpm</artifactId>
       <type>rpm</type>
     </dependency>
   </dependencies>
