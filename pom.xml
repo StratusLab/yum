@@ -280,14 +280,14 @@
       <dependency>
         <groupId>org.quattor.cfg.module</groupId>
         <artifactId>ganglia</artifactId>
-        <version>1.0.8-SNAPSHOT</version>
+        <version>1.0.9-SNAPSHOT</version>
         <classifier>rpm</classifier>
         <type>rpm</type>
       </dependency>
       <dependency>
         <groupId>org.quattor.cfg.module</groupId>
         <artifactId>libvirtd</artifactId>
-        <version>1.13-SNAPSHOT</version>
+        <version>1.14-SNAPSHOT</version>
         <classifier>rpm</classifier>
         <type>rpm</type>
       </dependency>
@@ -301,7 +301,7 @@
       <dependency>
         <groupId>org.quattor.cfg.module</groupId>
         <artifactId>one_proxy</artifactId>
-        <version>1.13-SNAPSHOT</version>
+        <version>1.14-SNAPSHOT</version>
         <classifier>rpm</classifier>
         <type>rpm</type>
       </dependency>
