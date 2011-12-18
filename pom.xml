@@ -140,7 +140,7 @@
       <dependency>
         <groupId>eu.stratuslab.authn</groupId>
         <artifactId>authn-config-rpm</artifactId>
-        <version>1.0.4</version>
+        <version>1.0.5-SNAPSHOT</version>
         <type>rpm</type>
       </dependency>
       <dependency>
@@ -219,7 +219,7 @@
       <dependency>
         <groupId>eu.stratuslab.pkgs</groupId>
         <artifactId>stratuslab-cli-sysadmin-rpm</artifactId>
-        <version>1.13-SNAPSHOT</version>
+        <version>1.13</version>
         <type>rpm</type>
         <exclusions>
           <exclusion>
@@ -231,7 +231,7 @@
       <dependency>
         <groupId>eu.stratuslab.pkgs</groupId>
         <artifactId>stratuslab-cli-user-rpm</artifactId>
-        <version>1.13-SNAPSHOT</version>
+        <version>1.13</version>
         <type>rpm</type>
         <exclusions>
           <exclusion>
@@ -243,13 +243,13 @@
       <dependency>
         <groupId>eu.stratuslab.pkgs</groupId>
         <artifactId>stratuslab-web-monitor-rpm</artifactId>
-        <version>1.13-SNAPSHOT</version>
+        <version>1.13</version>
         <type>rpm</type>
       </dependency>
       <dependency>
         <groupId>eu.stratuslab.registration</groupId>
         <artifactId>registration-ldap-rpm</artifactId>
-        <version>1.3</version>
+        <version>1.4-SNAPSHOT</version>
         <type>rpm</type>
       </dependency>
       <dependency>
