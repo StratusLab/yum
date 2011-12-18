@@ -134,13 +134,13 @@
       <dependency>
         <groupId>eu.stratuslab.authn</groupId>
         <artifactId>authn-claudia-proxy-rpm</artifactId>
-        <version>1.0.5</version>
+        <version>1.0.6-SNAPSHOT</version>
         <type>rpm</type>
       </dependency>
       <dependency>
         <groupId>eu.stratuslab.authn</groupId>
         <artifactId>authn-config-rpm</artifactId>
-        <version>1.0.5</version>
+        <version>1.0.6-SNAPSHOT</version>
         <type>rpm</type>
       </dependency>
       <dependency>
@@ -249,7 +249,7 @@
       <dependency>
         <groupId>eu.stratuslab.registration</groupId>
         <artifactId>registration-ldap-rpm</artifactId>
-        <version>1.4</version>
+        <version>1.5-SNAPSHOT</version>
         <type>rpm</type>
       </dependency>
       <dependency>
@@ -273,7 +273,7 @@
       <dependency>
         <groupId>org.quattor.cfg.module</groupId>
         <artifactId>claudia</artifactId>
-        <version>1.12-SNAPSHOT</version>
+        <version>1.12</version>
         <classifier>rpm</classifier>
         <type>rpm</type>
       </dependency>
@@ -301,7 +301,7 @@
       <dependency>
         <groupId>org.quattor.cfg.module</groupId>
         <artifactId>one_proxy</artifactId>
-        <version>1.17-SNAPSHOT</version>
+        <version>1.17</version>
         <classifier>rpm</classifier>
         <type>rpm</type>
       </dependency>
