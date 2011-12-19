@@ -22,11 +22,11 @@
   </description>
 
   <dependencies>
-    <dependency>
+<!--     <dependency>
       <groupId>eu.stratuslab.authn</groupId>
       <artifactId>authn-claudia-proxy-rpm</artifactId>
       <type>rpm</type>
-    </dependency>
+    </dependency> -->
     <dependency>
       <groupId>eu.stratuslab.authn</groupId>
       <artifactId>authn-config-rpm</artifactId>
@@ -47,7 +47,7 @@
       <artifactId>benchmarks</artifactId>
       <type>rpm</type>
     </dependency>
-    <dependency>
+<!--     <dependency>
       <groupId>eu.stratuslab.pkgs.claudia</groupId>
       <artifactId>claudia-client-rpm</artifactId>
       <type>rpm</type>
@@ -73,7 +73,7 @@
       <groupId>eu.stratuslab.pkgs.claudia</groupId>
       <artifactId>tcloud-server-rpm</artifactId>
       <type>rpm</type>
-    </dependency>
+    </dependency> -->
     <dependency>
       <groupId>eu.stratuslab.pkgs</groupId>
       <artifactId>one-2.2-StratusLab-rpm</artifactId>
