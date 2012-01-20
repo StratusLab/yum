@@ -2,8 +2,8 @@
 
 echo "PRE BUILD"
 
-# Force repository back to master.
-git checkout ${GIT_BRANCH}
+git branch one-3.0 ${GIT_BRANCH}
+git checkout one-3.0
 git pull
 
 # Update to use latest defined versions.
