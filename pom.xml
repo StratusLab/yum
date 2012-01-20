@@ -206,26 +206,20 @@
       </dependency>
       <dependency>
         <groupId>eu.stratuslab.pkgs</groupId>
-        <artifactId>one-2.2-StratusLab-rpm</artifactId>
-        <version>1.0.5</version>
-        <type>rpm</type>
-      </dependency>
-      <dependency>
-        <groupId>eu.stratuslab.pkgs</groupId>
         <artifactId>one-3.0-StratusLab-rpm</artifactId>
-        <version>1.0.1-SNAPSHOT</version>
+        <version>1.0.6-SNAPSHOT</version>
         <type>rpm</type>
       </dependency>
       <dependency>
         <groupId>eu.stratuslab.pkgs</groupId>
         <artifactId>quarantine-cleanup-rpm</artifactId>
-        <version>1.0.5</version>
+        <version>1.0.6-SNAPSHOT</version>
         <type>rpm</type>
       </dependency>
       <dependency>
         <groupId>eu.stratuslab.pkgs</groupId>
         <artifactId>stratuslab-cli-sysadmin-rpm</artifactId>
-        <version>1.16</version>
+        <version>1.17-SNAPSHOT</version>
         <type>rpm</type>
         <exclusions>
           <exclusion>
@@ -237,7 +231,7 @@
       <dependency>
         <groupId>eu.stratuslab.pkgs</groupId>
         <artifactId>stratuslab-cli-user-rpm</artifactId>
-        <version>1.16</version>
+        <version>1.17-SNAPSHOT</version>
         <type>rpm</type>
         <exclusions>
           <exclusion>
@@ -249,7 +243,7 @@
       <dependency>
         <groupId>eu.stratuslab.pkgs</groupId>
         <artifactId>stratuslab-web-monitor-rpm</artifactId>
-        <version>1.16</version>
+        <version>1.17-SNAPSHOT</version>
         <type>rpm</type>
       </dependency>
       <dependency>
