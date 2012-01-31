@@ -249,13 +249,13 @@
       <dependency>
         <groupId>eu.stratuslab.registration</groupId>
         <artifactId>registration-ldap-rpm</artifactId>
-        <version>1.7-SNAPSHOT</version>
+        <version>1.7</version>
         <type>rpm</type>
       </dependency>
       <dependency>
         <groupId>eu.stratuslab.registration</groupId>
         <artifactId>registration-rpm</artifactId>
-        <version>1.7-SNAPSHOT</version>
+        <version>1.7</version>
         <type>rpm</type>
       </dependency>
       <dependency>
