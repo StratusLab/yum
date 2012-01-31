@@ -158,7 +158,7 @@
       <dependency>
         <groupId>eu.stratuslab.pkgs</groupId>
         <artifactId>benchmarks</artifactId>
-        <version>1.14</version>
+        <version>1.15-SNAPSHOT</version>
         <type>rpm</type>
       </dependency>
       <dependency>
