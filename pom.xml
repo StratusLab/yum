@@ -496,7 +496,7 @@
               <exclude>eu.stratuslab.yum:yum-certification</exclude>
             </excludes>
             
-            <includeTypes>rpm</includeTypes>
+            <includeTypes>rpm,zip,tar.gz</includeTypes>
             <excludeTransitive>true</excludeTransitive>
           </configuration>
 
