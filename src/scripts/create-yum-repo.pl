@@ -5,6 +5,7 @@ use strict;
 use File::Path qw(mkpath rmtree);
 use File::Find;
 use File::Copy qw(mv cp);
+use File::Basename;
 
 our %links;
 
@@ -17,6 +18,7 @@ sub move_and_rename_rpms {
     %links = ();
 
     find(\&treat_rpm, $src);
+    find(\&treat_zips_tarballs, $src);
 
     for my $key (sort keys %links) {
         my $link = "${dest}/$key";
@@ -41,6 +43,20 @@ sub treat_rpm {
         } else {
             $links{$n} = $File::Find::name;
         }
+    }
+}
+
+#
+# Collect zip archives and tarballs.
+#
+sub treat_zips_tarballs {
+    if (/^.*\.zip$/) {
+        my ($n, $path, $suffix) = fileparse($File::Find::name);
+        $links{$n} = $File::Find::name;
+    }
+    if (/^.*\.tar.gz$/) {
+        my ($n, $path, $suffix) = fileparse($File::Find::name);
+        $links{$n} = $File::Find::name;
     }
 }
 
