@@ -25,6 +25,7 @@
   <packaging>pom</packaging>
 
   <properties>
+    <package.os>fc14</package.os>
     <nexus.release.repository.name>fedora-14-releases</nexus.release.repository.name>
     <nexus.snapshot.repository.name>fedora-14-snapshots</nexus.snapshot.repository.name>
     <nexus.externals.repository.name>fedora-14-externals</nexus.externals.repository.name>
@@ -135,18 +136,21 @@
         <groupId>eu.stratuslab.authn</groupId>
         <artifactId>authn-claudia-proxy-rpm</artifactId>
         <version>1.0.9-SNAPSHOT</version>
+        <classifier>${package.os}</classifier>
         <type>rpm</type>
       </dependency>
       <dependency>
         <groupId>eu.stratuslab.authn</groupId>
         <artifactId>authn-config-rpm</artifactId>
         <version>1.0.9-SNAPSHOT</version>
+        <classifier>${package.os}</classifier>
         <type>rpm</type>
       </dependency>
       <dependency>
         <groupId>eu.stratuslab.authn</groupId>
         <artifactId>authn-one-proxy-rpm</artifactId>
         <version>1.0.9-SNAPSHOT</version>
+        <classifier>${package.os}</classifier>
         <type>rpm</type>
       </dependency>
       <dependency>
