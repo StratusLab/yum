@@ -25,19 +25,12 @@
 
     <dependency>
       <groupId>eu.stratuslab.registration</groupId>
-      <artifactId>registration-ldap-rpm</artifactId>
+      <artifactId>registration-openldap-rpm</artifactId>
       <type>rpm</type>
     </dependency>
     <dependency>
       <groupId>eu.stratuslab.registration</groupId>
       <artifactId>registration-rpm</artifactId>
-      <type>rpm</type>
-    </dependency>
-
-    <!-- EXTERNALS -->
-    <dependency>
-      <groupId>eu.stratuslab.externals</groupId>
-      <artifactId>apacheds</artifactId>
       <type>rpm</type>
     </dependency>
     

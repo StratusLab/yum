@@ -264,6 +264,12 @@
       </dependency>
       <dependency>
         <groupId>eu.stratuslab.registration</groupId>
+        <artifactId>registration-openldap-rpm</artifactId>
+        <version>1.10-SNAPSHOT</version>
+        <type>rpm</type>
+      </dependency>
+      <dependency>
+        <groupId>eu.stratuslab.registration</groupId>
         <artifactId>registration-rpm</artifactId>
         <version>1.10-SNAPSHOT</version>
         <type>rpm</type>
