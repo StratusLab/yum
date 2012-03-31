@@ -277,13 +277,13 @@
       <dependency>
         <groupId>eu.stratuslab.storage</groupId>
         <artifactId>storage-pdisk-host-rpm</artifactId>
-        <version>1.13</version>
+        <version>1.14-SNAPSHOT</version>
         <type>rpm</type>
       </dependency>
       <dependency>
         <groupId>eu.stratuslab.storage</groupId>
         <artifactId>storage-pdisk-server-rpm</artifactId>
-        <version>1.13</version>
+        <version>1.14-SNAPSHOT</version>
         <type>rpm</type>
       </dependency>
       <dependency>
