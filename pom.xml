@@ -210,7 +210,7 @@
       </dependency>
       <dependency>
         <groupId>eu.stratuslab.pkgs</groupId>
-        <artifactId>one-3.0-StratusLab-rpm</artifactId>
+        <artifactId>one-3.2-StratusLab-rpm</artifactId>
         <version>1.0.10-SNAPSHOT</version>
         <type>rpm</type>
       </dependency>
