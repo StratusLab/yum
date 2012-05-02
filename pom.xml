@@ -135,21 +135,21 @@
       <dependency>
         <groupId>eu.stratuslab.authn</groupId>
         <artifactId>authn-claudia-proxy-rpm</artifactId>
-        <version>1.0.15-SNAPSHOT</version>
+        <version>1.0.17-SNAPSHOT</version>
         <classifier>${package.os}</classifier>
         <type>rpm</type>
       </dependency>
       <dependency>
         <groupId>eu.stratuslab.authn</groupId>
         <artifactId>authn-config-rpm</artifactId>
-        <version>1.0.15-SNAPSHOT</version>
+        <version>1.0.17-SNAPSHOT</version>
         <classifier>${package.os}</classifier>
         <type>rpm</type>
       </dependency>
       <dependency>
         <groupId>eu.stratuslab.authn</groupId>
         <artifactId>authn-one-proxy-rpm</artifactId>
-        <version>1.0.15-SNAPSHOT</version>
+        <version>1.0.17-SNAPSHOT</version>
         <classifier>${package.os}</classifier>
         <type>rpm</type>
       </dependency>
