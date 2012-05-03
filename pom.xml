@@ -259,31 +259,31 @@
       <dependency>
         <groupId>eu.stratuslab.registration</groupId>
         <artifactId>registration-ldap-rpm</artifactId>
-        <version>1.11-SNAPSHOT</version>
+        <version>1.12-SNAPSHOT</version>
         <type>rpm</type>
       </dependency>
       <dependency>
         <groupId>eu.stratuslab.registration</groupId>
         <artifactId>registration-openldap-rpm</artifactId>
-        <version>1.11-SNAPSHOT</version>
+        <version>1.12-SNAPSHOT</version>
         <type>rpm</type>
       </dependency>
       <dependency>
         <groupId>eu.stratuslab.registration</groupId>
         <artifactId>registration-rpm</artifactId>
-        <version>1.11-SNAPSHOT</version>
+        <version>1.12-SNAPSHOT</version>
         <type>rpm</type>
       </dependency>
       <dependency>
         <groupId>eu.stratuslab.storage</groupId>
         <artifactId>storage-pdisk-host-rpm</artifactId>
-        <version>1.14</version>
+        <version>1.15-SNAPSHOT</version>
         <type>rpm</type>
       </dependency>
       <dependency>
         <groupId>eu.stratuslab.storage</groupId>
         <artifactId>storage-pdisk-server-rpm</artifactId>
-        <version>1.14</version>
+        <version>1.15-SNAPSHOT</version>
         <type>rpm</type>
       </dependency>
       <dependency>
