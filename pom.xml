@@ -156,7 +156,7 @@
       <dependency>
         <groupId>eu.stratuslab.marketplace</groupId>
         <artifactId>marketplace-server-rpm</artifactId>
-        <version>1.0.16-SNAPSHOT</version>
+        <version>1.0.17-SNAPSHOT</version>
         <type>rpm</type>
       </dependency>
       <dependency>
@@ -211,19 +211,19 @@
       <dependency>
         <groupId>eu.stratuslab.pkgs</groupId>
         <artifactId>one-3.2-StratusLab-rpm</artifactId>
-        <version>1.0.11-SNAPSHOT</version>
+        <version>1.0.12-SNAPSHOT</version>
         <type>rpm</type>
       </dependency>
       <dependency>
         <groupId>eu.stratuslab.pkgs</groupId>
         <artifactId>quarantine-cleanup-rpm</artifactId>
-        <version>1.0.11-SNAPSHOT</version>
+        <version>1.0.12-SNAPSHOT</version>
         <type>rpm</type>
       </dependency>
       <dependency>
         <groupId>eu.stratuslab.pkgs</groupId>
         <artifactId>stratuslab-cli-sysadmin-rpm</artifactId>
-        <version>1.24-SNAPSHOT</version>
+        <version>1.25-SNAPSHOT</version>
         <type>rpm</type>
         <exclusions>
           <exclusion>
@@ -235,25 +235,25 @@
       <dependency>
         <groupId>eu.stratuslab.pkgs</groupId>
         <artifactId>stratuslab-cli-user-rpm</artifactId>
-        <version>1.24-SNAPSHOT</version>
+        <version>1.25-SNAPSHOT</version>
         <type>rpm</type>
       </dependency>
       <dependency>
         <groupId>eu.stratuslab.pkgs</groupId>
         <artifactId>stratuslab-cli-user-pkg</artifactId>
-        <version>1.24-SNAPSHOT</version>
+        <version>1.25-SNAPSHOT</version>
         <type>zip</type>
       </dependency>
       <dependency>
         <groupId>eu.stratuslab.pkgs</groupId>
         <artifactId>stratuslab-cli-user-pkg</artifactId>
-        <version>1.24-SNAPSHOT</version>
+        <version>1.25-SNAPSHOT</version>
         <type>tar.gz</type>
       </dependency>
       <dependency>
         <groupId>eu.stratuslab.pkgs</groupId>
         <artifactId>stratuslab-web-monitor-rpm</artifactId>
-        <version>1.24-SNAPSHOT</version>
+        <version>1.25-SNAPSHOT</version>
         <type>rpm</type>
       </dependency>
       <dependency>
@@ -277,13 +277,13 @@
       <dependency>
         <groupId>eu.stratuslab.storage</groupId>
         <artifactId>storage-pdisk-host-rpm</artifactId>
-        <version>1.14-SNAPSHOT</version>
+        <version>1.14</version>
         <type>rpm</type>
       </dependency>
       <dependency>
         <groupId>eu.stratuslab.storage</groupId>
         <artifactId>storage-pdisk-server-rpm</artifactId>
-        <version>1.14-SNAPSHOT</version>
+        <version>1.14</version>
         <type>rpm</type>
       </dependency>
       <dependency>
