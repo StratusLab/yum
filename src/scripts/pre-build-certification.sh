@@ -11,5 +11,5 @@ sed 's%<version>.*-SNAPSHOT</version>%<version>0.0</version>%' pom.xml > pom2.xm
 mv -f pom2.xml pom.xml
 
 # Update to use latest defined versions.
-mvn versions:use-latest-releases -DgenerateBackupPoms=false
+#mvn versions:use-latest-releases -DgenerateBackupPoms=false
 
