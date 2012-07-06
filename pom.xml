@@ -168,13 +168,13 @@
       <dependency>
         <groupId>eu.stratuslab.pkgs.claudia</groupId>
         <artifactId>claudia-client-rpm</artifactId>
-        <version>0.1.19-SNAPSHOT</version>
+        <version>0.1.19</version>
         <type>rpm</type>
       </dependency>
       <dependency>
         <groupId>eu.stratuslab.pkgs.claudia</groupId>
         <artifactId>clotho-rpm</artifactId>
-        <version>0.1.19-SNAPSHOT</version>
+        <version>0.1.19</version>
         <type>rpm</type>
         <classifier>rpm</classifier>
         <exclusions>
@@ -187,7 +187,7 @@
       <dependency>
         <groupId>eu.stratuslab.pkgs.claudia</groupId>
         <artifactId>reportclient-rpm</artifactId>
-        <version>0.1.19-SNAPSHOT</version>
+        <version>0.1.19</version>
         <type>rpm</type>
         <exclusions>
           <exclusion>
@@ -199,7 +199,7 @@
       <dependency>
         <groupId>eu.stratuslab.pkgs.claudia</groupId>
         <artifactId>tcloud-server-rpm</artifactId>
-        <version>0.1.19-SNAPSHOT</version>
+        <version>0.1.19</version>
         <type>rpm</type>
         <exclusions>
           <exclusion>
