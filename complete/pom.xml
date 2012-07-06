@@ -132,6 +132,18 @@
       <artifactId>storage-pdisk-server-rpm</artifactId>
       <type>rpm</type>
     </dependency>
+
+    <dependency>
+      <groupId>eu.stratuslab.pkgs.claudia</groupId>
+      <artifactId>collectd-collector-rpm</artifactId>
+      <type>rpm</type>
+    </dependency>
+    <dependency>
+      <groupId>eu.stratuslab.pkgs.claudia</groupId>
+      <artifactId>collectd-extendedprobes-rpm</artifactId>
+      <type>rpm</type>
+    </dependency>
+
 <!--
     <dependency>
       <groupId>org.quattor.cfg.module</groupId>
