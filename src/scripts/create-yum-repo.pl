@@ -65,7 +65,8 @@ sub treat_zips_tarballs {
 #
 sub update_yum_metadata {
     my ($repo) = @_;
-    `createrepo --update --checkts --pretty ${repo}`;
+    `createrepo --update --checkts --pretty ${repo}` || 
+        die "Failed to update yum repo metadata\n";
 }
 
 #
