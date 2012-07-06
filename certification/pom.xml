@@ -136,11 +136,13 @@
     <dependency>
       <groupId>eu.stratuslab.pkgs.claudia</groupId>
       <artifactId>collectd-collector-rpm</artifactId>
+      <classifier>rpm</classifier>
       <type>rpm</type>
     </dependency>
     <dependency>
       <groupId>eu.stratuslab.pkgs.claudia</groupId>
       <artifactId>collectd-extendedprobes-rpm</artifactId>
+      <classifier>rpm</classifier>
       <type>rpm</type>
     </dependency>
 
