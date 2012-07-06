@@ -190,11 +190,13 @@
       <artifactId>activemq-client</artifactId>
       <type>rpm</type>
     </dependency>
+<!--
     <dependency>
       <groupId>eu.stratuslab.externals</groupId>
       <artifactId>apacheds</artifactId>
       <type>rpm</type>
     </dependency>
+-->
 <!--
     <dependency>
       <groupId>eu.stratuslab.externals</groupId>
