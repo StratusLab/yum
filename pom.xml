@@ -351,14 +351,14 @@
         <version>5.4.2-1.el5.x86_64</version>
         <type>rpm</type>
       </dependency>
-<!--
+
       <dependency>
         <groupId>eu.stratuslab.externals</groupId>
         <artifactId>apacheds</artifactId>
         <version>1.5.7-0.i386</version>
         <type>rpm</type>
       </dependency>
--->
+
       <dependency>
         <groupId>eu.stratuslab.externals</groupId>
         <artifactId>ganglia</artifactId>
