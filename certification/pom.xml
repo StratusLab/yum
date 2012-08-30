@@ -114,7 +114,7 @@
     </dependency>
     <dependency>
       <groupId>eu.stratuslab.registration</groupId>
-      <artifactId>registration-ldap-rpm</artifactId>
+      <artifactId>registration-openldap-rpm</artifactId>
       <type>rpm</type>
     </dependency>
     <dependency>
