@@ -134,13 +134,6 @@
     <dependencies>
       <dependency>
         <groupId>eu.stratuslab.authn</groupId>
-        <artifactId>authn-claudia-proxy-rpm</artifactId>
-        <version>2.4-SNAPSHOT</version>
-        <classifier>${package.os}</classifier>
-        <type>rpm</type>
-      </dependency>
-      <dependency>
-        <groupId>eu.stratuslab.authn</groupId>
         <artifactId>authn-config-rpm</artifactId>
         <version>2.4-SNAPSHOT</version>
         <classifier>${package.os}</classifier>
@@ -164,49 +157,6 @@
         <artifactId>benchmarks</artifactId>
         <version>2.1-SNAPSHOT</version>
         <type>rpm</type>
-      </dependency>
-      <dependency>
-        <groupId>eu.stratuslab.pkgs.claudia</groupId>
-        <artifactId>claudia-client-rpm</artifactId>
-        <version>0.1.20-SNAPSHOT</version>
-        <type>rpm</type>
-      </dependency>
-      <dependency>
-        <groupId>eu.stratuslab.pkgs.claudia</groupId>
-        <artifactId>clotho-rpm</artifactId>
-        <version>0.1.20-SNAPSHOT</version>
-        <type>rpm</type>
-        <classifier>rpm</classifier>
-        <exclusions>
-          <exclusion>
-            <groupId>eu.stratuslab.pkgs.claudia</groupId>
-            <artifactId>clotho</artifactId>
-          </exclusion>
-        </exclusions>
-      </dependency>
-      <dependency>
-        <groupId>eu.stratuslab.pkgs.claudia</groupId>
-        <artifactId>reportclient-rpm</artifactId>
-        <version>0.1.20-SNAPSHOT</version>
-        <type>rpm</type>
-        <exclusions>
-          <exclusion>
-            <groupId>eu.stratuslab.pkgs.claudia</groupId>
-            <artifactId>reportclient</artifactId>
-          </exclusion>
-        </exclusions>
-      </dependency>
-      <dependency>
-        <groupId>eu.stratuslab.pkgs.claudia</groupId>
-        <artifactId>tcloud-server-rpm</artifactId>
-        <version>0.1.20-SNAPSHOT</version>
-        <type>rpm</type>
-        <exclusions>
-          <exclusion>
-            <groupId>eu.stratuslab.pkgs.claudia</groupId>
-            <artifactId>tcloud-server</artifactId>
-          </exclusion>
-        </exclusions>
       </dependency>
       <dependency>
         <groupId>eu.stratuslab.pkgs</groupId>
@@ -290,13 +240,6 @@
       </dependency>
       <dependency>
         <groupId>org.quattor.cfg.module</groupId>
-        <artifactId>claudia</artifactId>
-        <version>1.22-SNAPSHOT</version>
-        <classifier>rpm</classifier>
-        <type>rpm</type>
-      </dependency>
-      <dependency>
-        <groupId>org.quattor.cfg.module</groupId>
         <artifactId>ganglia</artifactId>
         <version>1.0.22-SNAPSHOT</version>
         <classifier>rpm</classifier>
@@ -323,22 +266,6 @@
         <classifier>rpm</classifier>
         <type>rpm</type>
       </dependency>
-
-      <dependency>
-        <groupId>eu.stratuslab.pkgs.claudia</groupId>
-        <artifactId>collectd-collector-rpm</artifactId>
-        <version>1.2-SNAPSHOT</version>
-        <classifier>rpm</classifier>
-        <type>rpm</type>
-      </dependency>
-      <dependency>
-        <groupId>eu.stratuslab.pkgs.claudia</groupId>
-        <artifactId>collectd-extendedprobes-rpm</artifactId>
-        <version>1.2-SNAPSHOT</version>
-        <classifier>rpm</classifier>
-        <type>rpm</type>
-      </dependency>
-
       
       <!-- EXTERNALS -->
       <dependency>
