@@ -25,9 +25,9 @@
   <packaging>pom</packaging>
 
   <properties>
-    <package.os>fc14</package.os>
-    <nexus.release.repository.name>fedora-14-releases</nexus.release.repository.name>
-    <nexus.snapshot.repository.name>fedora-14-snapshots</nexus.snapshot.repository.name>
+    <package.os>el6</package.os>
+    <nexus.release.repository.name>centos-6.2-releases</nexus.release.repository.name>
+    <nexus.snapshot.repository.name>centos-6.2-snapshots</nexus.snapshot.repository.name>
     <nexus.externals.repository.name>fedora-14-externals</nexus.externals.repository.name>
   </properties>
 
