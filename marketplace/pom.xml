@@ -28,7 +28,7 @@
       <type>rpm</type>
     </dependency>
     <dependency>
-      <groupId>eu.stratuslab.pkgs</groupId>
+      <groupId>eu.stratuslab.client</groupId>
       <artifactId>stratuslab-cli-user-rpm</artifactId>
       <type>rpm</type>
     </dependency>

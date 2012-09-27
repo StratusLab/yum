@@ -153,67 +153,53 @@
         <type>rpm</type>
       </dependency>
       <dependency>
-        <groupId>eu.stratuslab.pkgs</groupId>
+        <groupId>eu.stratuslab.benchmarks</groupId>
         <artifactId>benchmarks</artifactId>
         <version>2.1-SNAPSHOT</version>
         <type>rpm</type>
       </dependency>
       <dependency>
-        <groupId>eu.stratuslab.pkgs</groupId>
+        <groupId>eu.stratuslab.vmm</groupId>
         <artifactId>one-3.2-StratusLab-rpm</artifactId>
         <version>2.3-SNAPSHOT</version>
         <type>rpm</type>
       </dependency>
       <dependency>
-        <groupId>eu.stratuslab.pkgs</groupId>
+        <groupId>eu.stratuslab.vmm</groupId>
         <artifactId>quarantine-cleanup-rpm</artifactId>
         <version>2.3-SNAPSHOT</version>
         <type>rpm</type>
       </dependency>
       <dependency>
-        <groupId>eu.stratuslab.pkgs</groupId>
+        <groupId>eu.stratuslab.client</groupId>
         <artifactId>stratuslab-cli-sysadmin-rpm</artifactId>
         <version>2.3-SNAPSHOT</version>
         <type>rpm</type>
         <exclusions>
           <exclusion>
-            <groupId>eu.stratuslab.pkgs</groupId>
+            <groupId>eu.stratuslab.client</groupId>
             <artifactId>stratuslab-cli-sysadmin-zip</artifactId>
           </exclusion>
         </exclusions>
       </dependency>
       <dependency>
-        <groupId>eu.stratuslab.pkgs</groupId>
+        <groupId>eu.stratuslab.client</groupId>
         <artifactId>stratuslab-cli-user-rpm</artifactId>
         <version>2.3-SNAPSHOT</version>
         <type>rpm</type>
       </dependency>
       <dependency>
-        <groupId>eu.stratuslab.pkgs</groupId>
+        <groupId>eu.stratuslab.client</groupId>
         <artifactId>stratuslab-cli-user-pkg</artifactId>
         <version>2.3-SNAPSHOT</version>
         <type>zip</type>
       </dependency>
       <dependency>
-        <groupId>eu.stratuslab.pkgs</groupId>
+        <groupId>eu.stratuslab.client</groupId>
         <artifactId>stratuslab-cli-user-pkg</artifactId>
         <version>2.3-SNAPSHOT</version>
         <type>tar.gz</type>
       </dependency>
-      <dependency>
-        <groupId>eu.stratuslab.pkgs</groupId>
-        <artifactId>stratuslab-web-monitor-rpm</artifactId>
-        <version>2.3-SNAPSHOT</version>
-        <type>rpm</type>
-      </dependency>
-<!--  
-      <dependency>
-        <groupId>eu.stratuslab.registration</groupId>
-        <artifactId>registration-ldap-rpm</artifactId>
-        <version>2.3-SNAPSHOT</version>
-        <type>rpm</type>
-      </dependency>
- -->      
       <dependency>
         <groupId>eu.stratuslab.registration</groupId>
         <artifactId>registration-openldap-rpm</artifactId>
@@ -238,56 +224,8 @@
         <version>2.3-SNAPSHOT</version>
         <type>rpm</type>
       </dependency>
-      <dependency>
-        <groupId>org.quattor.cfg.module</groupId>
-        <artifactId>ganglia</artifactId>
-        <version>1.0.22-SNAPSHOT</version>
-        <classifier>rpm</classifier>
-        <type>rpm</type>
-      </dependency>
-      <dependency>
-        <groupId>org.quattor.cfg.module</groupId>
-        <artifactId>libvirtd</artifactId>
-        <version>1.27-SNAPSHOT</version>
-        <classifier>rpm</classifier>
-        <type>rpm</type>
-      </dependency>
-      <dependency>
-        <groupId>org.quattor.cfg.module</groupId>
-        <artifactId>oned</artifactId>
-        <version>1.27-SNAPSHOT</version>
-        <classifier>rpm</classifier>
-        <type>rpm</type>
-      </dependency>
-      <dependency>
-        <groupId>org.quattor.cfg.module</groupId>
-        <artifactId>one_proxy</artifactId>
-        <version>1.27-SNAPSHOT</version>
-        <classifier>rpm</classifier>
-        <type>rpm</type>
-      </dependency>
       
       <!-- EXTERNALS -->
-      <dependency>
-        <groupId>eu.stratuslab.externals</groupId>
-        <artifactId>activemq</artifactId>
-        <version>5.4.2-1.el5.x86_64</version>
-        <type>rpm</type>
-      </dependency>
-      <dependency>
-        <groupId>eu.stratuslab.externals</groupId>
-        <artifactId>activemq-client</artifactId>
-        <version>5.4.2-1.el5.x86_64</version>
-        <type>rpm</type>
-      </dependency>
-
-      <dependency>
-        <groupId>eu.stratuslab.externals</groupId>
-        <artifactId>apacheds</artifactId>
-        <version>1.5.7-0.i386</version>
-        <type>rpm</type>
-      </dependency>
-
       <dependency>
         <groupId>eu.stratuslab.externals</groupId>
         <artifactId>ganglia</artifactId>

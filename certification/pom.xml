@@ -40,44 +40,39 @@
       <type>rpm</type>
     </dependency>
     <dependency>
-      <groupId>eu.stratuslab.pkgs</groupId>
+      <groupId>eu.stratuslab.benchmarks</groupId>
       <artifactId>benchmarks</artifactId>
       <type>rpm</type>
     </dependency>
     <dependency>
-      <groupId>eu.stratuslab.pkgs</groupId>
+      <groupId>eu.stratuslab.vmm</groupId>
       <artifactId>one-3.2-StratusLab-rpm</artifactId>
       <type>rpm</type>
     </dependency>
     <dependency>
-      <groupId>eu.stratuslab.pkgs</groupId>
+      <groupId>eu.stratuslab.vmm</groupId>
       <artifactId>quarantine-cleanup-rpm</artifactId>
       <type>rpm</type>
     </dependency>
     <dependency>
-      <groupId>eu.stratuslab.pkgs</groupId>
+      <groupId>eu.stratuslab.client</groupId>
       <artifactId>stratuslab-cli-sysadmin-rpm</artifactId>
       <type>rpm</type>
     </dependency>
     <dependency>
-      <groupId>eu.stratuslab.pkgs</groupId>
+      <groupId>eu.stratuslab.client</groupId>
       <artifactId>stratuslab-cli-user-rpm</artifactId>
       <type>rpm</type>
     </dependency>
     <dependency>
-      <groupId>eu.stratuslab.pkgs</groupId>
+      <groupId>eu.stratuslab.client</groupId>
       <artifactId>stratuslab-cli-user-pkg</artifactId>
       <type>zip</type>
     </dependency>
     <dependency>
-      <groupId>eu.stratuslab.pkgs</groupId>
+      <groupId>eu.stratuslab.client</groupId>
       <artifactId>stratuslab-cli-user-pkg</artifactId>
       <type>tar.gz</type>
-    </dependency>
-    <dependency>
-      <groupId>eu.stratuslab.pkgs</groupId>
-      <artifactId>stratuslab-web-monitor-rpm</artifactId>
-      <type>rpm</type>
     </dependency>
     <dependency>
       <groupId>eu.stratuslab.registration</groupId>
@@ -100,121 +95,12 @@
       <type>rpm</type>
     </dependency>
 
-
-<!--
-    <dependency>
-      <groupId>org.quattor.cfg.module</groupId>
-      <artifactId>ganglia</artifactId>
-      <classifier>rpm</classifier>
-      <type>rpm</type>
-    </dependency>
-    <dependency>
-      <groupId>org.quattor.cfg.module</groupId>
-      <artifactId>libvirtd</artifactId>
-      <classifier>rpm</classifier>
-      <type>rpm</type>
-    </dependency>
-    <dependency>
-      <groupId>org.quattor.cfg.module</groupId>
-      <artifactId>oned</artifactId>
-      <classifier>rpm</classifier>
-      <type>rpm</type>
-    </dependency>
-    <dependency>
-      <groupId>org.quattor.cfg.module</groupId>
-      <artifactId>one_proxy</artifactId>
-      <classifier>rpm</classifier>
-      <type>rpm</type>
-    </dependency>
--->
-    
     <!-- EXTERNALS -->
-    <dependency>
-      <groupId>eu.stratuslab.externals</groupId>
-      <artifactId>activemq</artifactId>
-      <type>rpm</type>
-    </dependency>
-    <dependency>
-      <groupId>eu.stratuslab.externals</groupId>
-      <artifactId>activemq-client</artifactId>
-      <type>rpm</type>
-    </dependency>
-<!--
-    <dependency>
-      <groupId>eu.stratuslab.externals</groupId>
-      <artifactId>apacheds</artifactId>
-      <type>rpm</type>
-    </dependency>
--->
-<!--
-    <dependency>
-      <groupId>eu.stratuslab.externals</groupId>
-      <artifactId>ganglia</artifactId>
-      <type>rpm</type>
-    </dependency>
-    <dependency>
-      <groupId>eu.stratuslab.externals</groupId>
-      <artifactId>ganglia-debuginfo</artifactId>
-      <type>rpm</type>
-    </dependency>
-    <dependency>
-      <groupId>eu.stratuslab.externals</groupId>
-      <artifactId>ganglia-devel</artifactId>
-      <type>rpm</type>
-    </dependency>
-    <dependency>
-      <groupId>eu.stratuslab.externals</groupId>
-      <artifactId>ganglia-gmetad</artifactId>
-      <type>rpm</type>
-    </dependency>
-    <dependency>
-      <groupId>eu.stratuslab.externals</groupId>
-      <artifactId>ganglia-gmond</artifactId>
-      <type>rpm</type>
-    </dependency>
-    <dependency>
-      <groupId>eu.stratuslab.externals</groupId>
-      <artifactId>ganglia-gmond-modules-python</artifactId>
-      <type>rpm</type>
-    </dependency>
-    <dependency>
-      <groupId>eu.stratuslab.externals</groupId>
-      <artifactId>ganglia-web</artifactId>
-      <type>rpm</type>
-    </dependency>
-    <dependency>
-      <groupId>eu.stratuslab.externals</groupId>
-      <artifactId>libganglia-3_1_0</artifactId>
-      <type>rpm</type>
-    </dependency>
--->
     <dependency>
       <groupId>eu.stratuslab.externals</groupId>
       <artifactId>iscsitarget</artifactId>
       <type>rpm</type>
     </dependency>
-<!--
-    <dependency>
-      <groupId>eu.stratuslab.externals</groupId>
-      <artifactId>perl-DateTime</artifactId>
-      <type>rpm</type>
-    </dependency>
-    <dependency>
-      <groupId>eu.stratuslab.externals</groupId>
-      <artifactId>perl-DateTime-Locale</artifactId>
-      <type>rpm</type>
-    </dependency>
-    <dependency>
-      <groupId>eu.stratuslab.externals</groupId>
-      <artifactId>perl-DateTime-TimeZone</artifactId>
-      <type>rpm</type>
-    </dependency>
-    <dependency>
-      <groupId>eu.stratuslab.externals</groupId>
-      <artifactId>perl-Readonly</artifactId>
-      <type>rpm</type>
-    </dependency>
--->
     <dependency>
       <groupId>eu.stratuslab.externals</groupId>
       <artifactId>rubygem-sequel</artifactId>
