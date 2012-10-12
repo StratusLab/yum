@@ -94,18 +94,6 @@
       <artifactId>storage-pdisk-server-rpm</artifactId>
       <type>rpm</type>
     </dependency>
-
-    <!-- EXTERNALS -->
-    <dependency>
-      <groupId>eu.stratuslab.externals</groupId>
-      <artifactId>iscsitarget</artifactId>
-      <type>rpm</type>
-    </dependency>
-    <dependency>
-      <groupId>eu.stratuslab.externals</groupId>
-      <artifactId>rubygem-sequel</artifactId>
-      <type>rpm</type>
-    </dependency>
   </dependencies>
 
   <build>
