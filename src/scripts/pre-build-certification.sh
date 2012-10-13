@@ -10,6 +10,8 @@ git pull
 sed 's%<version>.*-SNAPSHOT</version>%<version>0.0</version>%' pom.xml > pom2.xml
 mv -f pom2.xml pom.xml
 
+rm -rf ~/.m2/repository/eu/stratuslab/*
+
 # Update to use latest defined versions.
 #mvn versions:use-latest-releases -DgenerateBackupPoms=false
 
