@@ -40,11 +40,6 @@
       <type>rpm</type>
     </dependency>
     <dependency>
-      <groupId>eu.stratuslab.benchmarks</groupId>
-      <artifactId>benchmarks</artifactId>
-      <type>rpm</type>
-    </dependency>
-    <dependency>
       <groupId>eu.stratuslab.vmm</groupId>
       <artifactId>one-3.2-StratusLab-rpm</artifactId>
       <type>rpm</type>

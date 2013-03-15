@@ -153,12 +153,6 @@
         <type>rpm</type>
       </dependency>
       <dependency>
-        <groupId>eu.stratuslab.benchmarks</groupId>
-        <artifactId>benchmarks</artifactId>
-        <version>2.4-SNAPSHOT</version>
-        <type>rpm</type>
-      </dependency>
-      <dependency>
         <groupId>eu.stratuslab.vmm</groupId>
         <artifactId>one-3.2-StratusLab-rpm</artifactId>
         <version>2.6-SNAPSHOT</version>
