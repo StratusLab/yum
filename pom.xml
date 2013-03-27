@@ -11,6 +11,10 @@
   <version>1.0.0-SNAPSHOT<!-- no not remove comment --></version>
   <name>YUM (POM)</name>
 
+  <prerequisites>
+    <maven>2.2.1</maven>
+  </prerequisites>
+
   <modules>
     <module>complete</module>
     <module>marketplace</module>
@@ -135,39 +139,39 @@
       <dependency>
         <groupId>eu.stratuslab.authn</groupId>
         <artifactId>authn-config-rpm</artifactId>
-        <version>2.8-SNAPSHOT</version>
+        <version>2.9-SNAPSHOT</version>
         <classifier>${package.os}</classifier>
         <type>rpm</type>
       </dependency>
       <dependency>
         <groupId>eu.stratuslab.authn</groupId>
         <artifactId>authn-one-proxy-rpm</artifactId>
-        <version>2.8-SNAPSHOT</version>
+        <version>2.9-SNAPSHOT</version>
         <classifier>${package.os}</classifier>
         <type>rpm</type>
       </dependency>
       <dependency>
         <groupId>eu.stratuslab.marketplace</groupId>
         <artifactId>marketplace-server-rpm</artifactId>
-        <version>3.3-SNAPSHOT</version>
+        <version>2.7-SNAPSHOT</version>
         <type>rpm</type>
       </dependency>
       <dependency>
         <groupId>eu.stratuslab.vmm</groupId>
         <artifactId>one-3.2-StratusLab-rpm</artifactId>
-        <version>2.6-SNAPSHOT</version>
+        <version>2.7-SNAPSHOT</version>
         <type>rpm</type>
       </dependency>
       <dependency>
         <groupId>eu.stratuslab.vmm</groupId>
         <artifactId>quarantine-cleanup-rpm</artifactId>
-        <version>2.6-SNAPSHOT</version>
+        <version>2.7-SNAPSHOT</version>
         <type>rpm</type>
       </dependency>
       <dependency>
         <groupId>eu.stratuslab.client</groupId>
         <artifactId>stratuslab-cli-sysadmin-rpm</artifactId>
-        <version>2.8-SNAPSHOT</version>
+        <version>2.9-SNAPSHOT</version>
         <type>rpm</type>
         <exclusions>
           <exclusion>
@@ -179,167 +183,48 @@
       <dependency>
         <groupId>eu.stratuslab.client</groupId>
         <artifactId>stratuslab-cli-user-rpm</artifactId>
-        <version>2.8-SNAPSHOT</version>
+        <version>2.9-SNAPSHOT</version>
         <type>rpm</type>
       </dependency>
       <dependency>
         <groupId>eu.stratuslab.client</groupId>
         <artifactId>stratuslab-cli-user-pkg</artifactId>
-        <version>2.8-SNAPSHOT</version>
+        <version>2.9-SNAPSHOT</version>
         <type>zip</type>
       </dependency>
       <dependency>
         <groupId>eu.stratuslab.client</groupId>
         <artifactId>stratuslab-cli-user-pkg</artifactId>
-        <version>2.8-SNAPSHOT</version>
+        <version>2.9-SNAPSHOT</version>
         <type>tar.gz</type>
       </dependency>
       <dependency>
         <groupId>eu.stratuslab.registration</groupId>
         <artifactId>registration-openldap-rpm</artifactId>
-        <version>2.6-SNAPSHOT</version>
+        <version>2.7-SNAPSHOT</version>
         <type>rpm</type>
       </dependency>
       <dependency>
         <groupId>eu.stratuslab.registration</groupId>
         <artifactId>registration-rpm</artifactId>
-        <version>2.6-SNAPSHOT</version>
+        <version>2.7-SNAPSHOT</version>
         <type>rpm</type>
       </dependency>
       <dependency>
         <groupId>eu.stratuslab.storage</groupId>
         <artifactId>storage-pdisk-host-rpm</artifactId>
-        <version>2.7-SNAPSHOT</version>
+        <version>2.8-SNAPSHOT</version>
         <type>rpm</type>
       </dependency>
       <dependency>
         <groupId>eu.stratuslab.storage</groupId>
         <artifactId>storage-pdisk-server-rpm</artifactId>
-        <version>2.7-SNAPSHOT</version>
+        <version>2.8-SNAPSHOT</version>
         <type>rpm</type>
       </dependency>
       
       <!-- EXTERNALS -->
-      <dependency>
-        <groupId>eu.stratuslab.externals</groupId>
-        <artifactId>ganglia</artifactId>
-        <version>3.0.7-1.el5.x86_64</version>
-        <type>rpm</type>
-      </dependency>
-      <dependency>
-        <groupId>eu.stratuslab.externals</groupId>
-        <artifactId>ganglia-debuginfo</artifactId>
-        <version>3.1.7-1.x86_64</version>
-        <type>rpm</type>
-      </dependency>
-      <dependency>
-        <groupId>eu.stratuslab.externals</groupId>
-        <artifactId>ganglia-devel</artifactId>
-        <version>3.1.7-1.x86_64</version>
-        <type>rpm</type>
-      </dependency>
-      <dependency>
-        <groupId>eu.stratuslab.externals</groupId>
-        <artifactId>ganglia-gmetad</artifactId>
-        <version>3.1.7-1.x86_64</version>
-        <type>rpm</type>
-      </dependency>
-      <dependency>
-        <groupId>eu.stratuslab.externals</groupId>
-        <artifactId>ganglia-gmond</artifactId>
-        <version>3.1.7-1.x86_64</version>
-        <type>rpm</type>
-      </dependency>
-      <dependency>
-        <groupId>eu.stratuslab.externals</groupId>
-        <artifactId>ganglia-gmond-modules-python</artifactId>
-        <version>3.1.7-1.x86_64</version>
-        <type>rpm</type>
-      </dependency>
-      <dependency>
-        <groupId>eu.stratuslab.externals</groupId>
-        <artifactId>ganglia-web</artifactId>
-        <version>3.1.7-1.noarch</version>
-        <type>rpm</type>
-      </dependency>
-      <dependency>
-        <groupId>eu.stratuslab.externals</groupId>
-        <artifactId>iscsitarget</artifactId>
-        <version>1.4.20.2-1.x86_64</version>
-        <type>rpm</type>
-      </dependency>
-      <dependency>
-        <groupId>eu.stratuslab.externals</groupId>
-        <artifactId>libganglia-3_1_0</artifactId>
-        <version>3.1.7-1.x86_64</version>
-        <type>rpm</type>
-      </dependency>
-      <dependency>
-        <groupId>eu.stratuslab.externals</groupId>
-        <artifactId>perl-DateTime</artifactId>
-        <version>0.42-1.el5.rf.x86_64</version>
-        <type>rpm</type>
-      </dependency>
-      <dependency>
-        <groupId>eu.stratuslab.externals</groupId>
-        <artifactId>perl-DateTime-Locale</artifactId>
-        <version>0.35-1.el5.rf.noarch</version>
-        <type>rpm</type>
-      </dependency>
-      <dependency>
-        <groupId>eu.stratuslab.externals</groupId>
-        <artifactId>perl-DateTime-TimeZone</artifactId>
-        <version>0.69.4-2.el5.rf.noarch</version>
-        <type>rpm</type>
-      </dependency>
-      <dependency>
-        <groupId>eu.stratuslab.externals</groupId>
-        <artifactId>perl-Readonly</artifactId>
-        <version>1.03-1.2.el5.rf.noarch</version>
-        <type>rpm</type>
-      </dependency>
-      <dependency>
-        <groupId>eu.stratuslab.externals</groupId>
-        <artifactId>ruby</artifactId>
-        <version>1.8.6.287-2.x86_64</version>
-        <type>rpm</type>
-      </dependency>
-      <dependency>
-        <groupId>eu.stratuslab.externals</groupId>
-        <artifactId>ruby-debuginfo</artifactId>
-        <version>1.8.6.287-2.x86_64</version>
-        <type>rpm</type>
-      </dependency>
-      <dependency>
-        <groupId>eu.stratuslab.externals</groupId>
-        <artifactId>ruby-devel</artifactId>
-        <version>1.8.6.287-2.x86_64</version>
-        <type>rpm</type>
-      </dependency>
-      <dependency>
-        <groupId>eu.stratuslab.externals</groupId>
-        <artifactId>ruby-docs</artifactId>
-        <version>1.8.6.287-2.x86_64</version>
-        <type>rpm</type>
-      </dependency>
-      <dependency>
-        <groupId>eu.stratuslab.externals</groupId>
-        <artifactId>rubygem-sequel</artifactId>
-        <version>3.20.0-1.noarch</version>
-        <type>rpm</type>
-      </dependency>
-      <dependency>
-        <groupId>eu.stratuslab.externals</groupId>
-        <artifactId>rubygem-sqlite3-ruby</artifactId>
-        <version>1.2.4-1.el5.x86_64</version>
-        <type>rpm</type>
-      </dependency>
-      <dependency>
-        <groupId>eu.stratuslab.externals</groupId>
-        <artifactId>rubygems</artifactId>
-        <version>1.3.1-1.el5.noarch</version>
-        <type>rpm</type>
-      </dependency>
+      <!-- currently none defined -->
     </dependencies>
   </dependencyManagement>
 
@@ -350,18 +235,18 @@
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-clean-plugin</artifactId>
-          <version>2.4.1</version>
+          <version>2.5</version>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-deploy-plugin</artifactId>
-          <version>2.6</version>
+          <version>2.7</version>
         </plugin>
 
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-dependency-plugin</artifactId>
-          <version>2.3</version>
+          <version>2.7</version>
 
           <configuration>
             <actTransitively>false</actTransitively>
@@ -396,22 +281,22 @@
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-install-plugin</artifactId>
-          <version>2.3.1</version>
+          <version>2.4</version>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-jar-plugin</artifactId>
-          <version>2.3.1</version>
+          <version>2.4</version>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-war-plugin</artifactId>
-          <version>2.1.1</version>
+          <version>2.3</version>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-resources-plugin</artifactId>
-          <version>2.5</version>
+          <version>2.6</version>
           <configuration>
             <encoding>UTF-8</encoding>
           </configuration>
@@ -419,17 +304,17 @@
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-site-plugin</artifactId>
-          <version>2.3</version>
+          <version>3.2</version>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-surefire-plugin</artifactId>
-          <version>2.9</version>
+          <version>2.14</version>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-compiler-plugin</artifactId>
-          <version>2.3.2</version>
+          <version>3.0</version>
           <configuration>
             <encoding>UTF-8</encoding>
             <target>1.5</target>
@@ -439,7 +324,7 @@
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-javadoc-plugin</artifactId>
-          <version>2.8</version>
+          <version>2.9</version>
           <configuration>
             <encoding>UTF-8</encoding>
           </configuration>
@@ -447,7 +332,7 @@
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-assembly-plugin</artifactId>
-          <version>2.2.1</version>
+          <version>2.4</version>
         </plugin>
 
         <plugin>
@@ -475,7 +360,7 @@
         <plugin>
           <groupId>org.codehaus.mojo</groupId>
           <artifactId>findbugs-maven-plugin</artifactId>
-          <version>2.3.2</version>
+          <version>2.5.2</version>
         </plugin>
 
         <plugin>
@@ -487,7 +372,7 @@
         <plugin>
           <groupId>org.codehaus.mojo</groupId>
           <artifactId>versions-maven-plugin</artifactId>
-          <version>1.2</version>
+          <version>2.0</version>
         </plugin>
 
       </plugins>
