@@ -33,6 +33,16 @@
       <artifactId>stratuslab-cli-sysadmin-rpm</artifactId>
       <type>rpm</type>
     </dependency>
+    <dependency>
+      <groupId>eu.stratuslab.client</groupId>
+      <artifactId>stratuslab-api-rpm</artifactId>
+      <type>rpm</type>
+    </dependency>
+    <dependency>
+      <groupId>eu.stratuslab.client</groupId>
+      <artifactId>stratuslab-api-externals-rpm</artifactId>
+      <type>rpm</type>
+    </dependency>
 
   </dependencies>
 
