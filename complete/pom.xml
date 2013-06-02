@@ -23,13 +23,13 @@
 
   <dependencies>
     <dependency>
-      <groupId>eu.stratuslab.authn</groupId>
+      <groupId>eu.stratuslab.authn-j7</groupId>
       <artifactId>authn-config-rpm</artifactId>
       <classifier>${package.os}</classifier>
       <type>rpm</type>
     </dependency>
     <dependency>
-      <groupId>eu.stratuslab.authn</groupId>
+      <groupId>eu.stratuslab.authn-j7</groupId>
       <artifactId>authn-one-proxy-rpm</artifactId>
       <classifier>${package.os}</classifier>
       <type>rpm</type>
