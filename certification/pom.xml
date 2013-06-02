@@ -80,12 +80,12 @@
       <type>rpm</type>
     </dependency>
     <dependency>
-      <groupId>eu.stratuslab.storage</groupId>
+      <groupId>eu.stratuslab.storage-j7</groupId>
       <artifactId>storage-pdisk-host-rpm</artifactId>
       <type>rpm</type>
     </dependency>
     <dependency>
-      <groupId>eu.stratuslab.storage</groupId>
+      <groupId>eu.stratuslab.storage-j7</groupId>
       <artifactId>storage-pdisk-server-rpm</artifactId>
       <type>rpm</type>
     </dependency>

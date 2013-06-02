@@ -229,13 +229,13 @@
         <type>rpm</type>
       </dependency>
       <dependency>
-        <groupId>eu.stratuslab.storage</groupId>
+        <groupId>eu.stratuslab.storage-j7</groupId>
         <artifactId>storage-pdisk-host-rpm</artifactId>
         <version>13.05.0-SNAPSHOT</version>
         <type>rpm</type>
       </dependency>
       <dependency>
-        <groupId>eu.stratuslab.storage</groupId>
+        <groupId>eu.stratuslab.storage-j7</groupId>
         <artifactId>storage-pdisk-server-rpm</artifactId>
         <version>13.05.0-SNAPSHOT</version>
         <type>rpm</type>
