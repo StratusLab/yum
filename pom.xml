@@ -137,14 +137,14 @@
   <dependencyManagement>
     <dependencies>
       <dependency>
-        <groupId>eu.stratuslab.authn</groupId>
+        <groupId>eu.stratuslab.authn-j7</groupId>
         <artifactId>authn-config-rpm</artifactId>
         <version>13.05.0-SNAPSHOT</version>
         <classifier>${package.os}</classifier>
         <type>rpm</type>
       </dependency>
       <dependency>
-        <groupId>eu.stratuslab.authn</groupId>
+        <groupId>eu.stratuslab.authn-j7</groupId>
         <artifactId>authn-one-proxy-rpm</artifactId>
         <version>13.05.0-SNAPSHOT</version>
         <classifier>${package.os}</classifier>
