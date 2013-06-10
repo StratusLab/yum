@@ -23,13 +23,13 @@
 
   <dependencies>
     <dependency>
-      <groupId>eu.stratuslab.authn-j7</groupId>
+      <groupId>eu.stratuslab.authn</groupId>
       <artifactId>authn-config-rpm</artifactId>
       <classifier>${package.os}</classifier>
       <type>rpm</type>
     </dependency>
     <dependency>
-      <groupId>eu.stratuslab.authn-j7</groupId>
+      <groupId>eu.stratuslab.authn</groupId>
       <artifactId>authn-one-proxy-rpm</artifactId>
       <classifier>${package.os}</classifier>
       <type>rpm</type>
@@ -95,14 +95,29 @@
       <type>rpm</type>
     </dependency>
     <dependency>
-      <groupId>eu.stratuslab.storage-j7</groupId>
+      <groupId>eu.stratuslab.storage</groupId>
       <artifactId>storage-pdisk-host-rpm</artifactId>
       <type>rpm</type>
     </dependency>
     <dependency>
-      <groupId>eu.stratuslab.storage-j7</groupId>
+      <groupId>eu.stratuslab.storage</groupId>
       <artifactId>storage-pdisk-server-rpm</artifactId>
       <type>rpm</type>
+    </dependency>
+    <dependency>
+      <groupId>eu.stratuslab.image</groupId>
+      <artifactId>contextualization-rpm</artifactId>
+      <type>rpm</type>
+    </dependency>
+    <dependency>
+      <groupId>eu.stratuslab.image</groupId>
+      <artifactId>contextualization-tar</artifactId>
+      <type>tar.gz</type>
+    </dependency>
+    <dependency>
+      <groupId>eu.stratuslab.image</groupId>
+      <artifactId>contextualization-tar</artifactId>
+      <type>zip</type>
     </dependency>
   </dependencies>
 
