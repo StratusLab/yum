@@ -284,6 +284,20 @@
         <type>rpm</type>
       </dependency>
       
+      <dependency>
+        <groupId>eu.stratuslab.libcloud</groupId>
+        <artifactId>stratuslab-libcloud-drivers-pypi</artifactId>
+        <version>${sl.release}</version>
+        <type>tar.gz</type>
+      </dependency>
+      
+      <dependency>
+        <groupId>eu.stratuslab.client</groupId>
+        <artifactId>stratuslab-client-pypi</artifactId>
+        <version>${sl.release}</version>
+        <type>tar.gz</type>
+      </dependency>
+      
       <!-- EXTERNALS -->
       <!-- currently none defined -->
     </dependencies>
