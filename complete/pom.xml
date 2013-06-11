@@ -134,6 +134,16 @@
       <artifactId>stratuslab-docs-rpm</artifactId>
       <type>rpm</type>
     </dependency>
+    <dependency>
+      <groupId>eu.stratuslab.libcloud</groupId>
+      <artifactId>stratuslab-libcloud-drivers-pypi</artifactId>
+      <type>tar.gz</type>
+    </dependency>
+    <dependency>
+      <groupId>eu.stratuslab.client</groupId>
+      <artifactId>stratuslab-client-pypi</artifactId>
+      <type>tar.gz</type>
+    </dependency>
   </dependencies>
 
   <build>
