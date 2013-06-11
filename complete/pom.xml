@@ -61,16 +61,6 @@
     </dependency>
     <dependency>
       <groupId>eu.stratuslab.client</groupId>
-      <artifactId>stratuslab-cli-user-pkg</artifactId>
-      <type>zip</type>
-    </dependency>
-    <dependency>
-      <groupId>eu.stratuslab.client</groupId>
-      <artifactId>stratuslab-cli-user-pkg</artifactId>
-      <type>tar.gz</type>
-    </dependency>
-    <dependency>
-      <groupId>eu.stratuslab.client</groupId>
       <artifactId>stratuslab-api-rpm</artifactId>
       <type>rpm</type>
     </dependency>
