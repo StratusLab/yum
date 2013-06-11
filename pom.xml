@@ -251,14 +251,14 @@
       
       <dependency>
         <groupId>eu.stratuslab.image</groupId>
-        <artifactId>contextualization-tar</artifactId>
+        <artifactId>stratuslab-contextualization</artifactId>
         <version>${sl.release}</version>
         <type>tar.gz</type>
       </dependency>
       
       <dependency>
         <groupId>eu.stratuslab.image</groupId>
-        <artifactId>contextualization-tar</artifactId>
+        <artifactId>stratuslab-contextualization</artifactId>
         <version>${sl.release}</version>
         <type>zip</type>
       </dependency>

@@ -111,12 +111,12 @@
     </dependency>
     <dependency>
       <groupId>eu.stratuslab.image</groupId>
-      <artifactId>contextualization-tar</artifactId>
+      <artifactId>stratuslab-contextualization</artifactId>
       <type>tar.gz</type>
     </dependency>
     <dependency>
       <groupId>eu.stratuslab.image</groupId>
-      <artifactId>contextualization-tar</artifactId>
+      <artifactId>stratuslab-contextualization</artifactId>
       <type>zip</type>
     </dependency>
     <dependency>
