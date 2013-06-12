@@ -60,6 +60,21 @@
       <type>rpm</type>
     </dependency>
     <dependency>
+      <groupId>eu.stratuslab.client</groupId>
+      <artifactId>stratuslab-api-rpm</artifactId>
+      <type>rpm</type>
+    </dependency>
+    <dependency>
+      <groupId>eu.stratuslab.client</groupId>
+      <artifactId>stratuslab-api-externals-rpm</artifactId>
+      <type>rpm</type>
+    </dependency>
+    <dependency>
+      <groupId>eu.stratuslab.monitoring</groupId>
+      <artifactId>libvirt-monitor-rpm</artifactId>
+      <type>rpm</type>
+    </dependency>
+    <dependency>
       <groupId>eu.stratuslab.registration</groupId>
       <artifactId>registration-openldap-rpm</artifactId>
       <type>rpm</type>
@@ -78,6 +93,46 @@
       <groupId>eu.stratuslab.storage</groupId>
       <artifactId>storage-pdisk-server-rpm</artifactId>
       <type>rpm</type>
+    </dependency>
+    <dependency>
+      <groupId>eu.stratuslab.image</groupId>
+      <artifactId>contextualization-rpm</artifactId>
+      <type>rpm</type>
+    </dependency>
+    <dependency>
+      <groupId>eu.stratuslab.image</groupId>
+      <artifactId>stratuslab-contextualization</artifactId>
+      <type>tar.gz</type>
+    </dependency>
+    <dependency>
+      <groupId>eu.stratuslab.image</groupId>
+      <artifactId>stratuslab-contextualization</artifactId>
+      <type>zip</type>
+    </dependency>
+    <dependency>
+      <groupId>eu.stratuslab.documentation</groupId>
+      <artifactId>stratuslab-docs</artifactId>
+      <type>tar.gz</type>
+    </dependency>
+    <dependency>
+      <groupId>eu.stratuslab.documentation</groupId>
+      <artifactId>stratuslab-docs</artifactId>
+      <type>zip</type>
+    </dependency>
+    <dependency>
+      <groupId>eu.stratuslab.documentation</groupId>
+      <artifactId>stratuslab-docs-rpm</artifactId>
+      <type>rpm</type>
+    </dependency>
+    <dependency>
+      <groupId>eu.stratuslab.libcloud</groupId>
+      <artifactId>stratuslab-libcloud-drivers-pypi</artifactId>
+      <type>tar.gz</type>
+    </dependency>
+    <dependency>
+      <groupId>eu.stratuslab.client</groupId>
+      <artifactId>stratuslab-client-pypi</artifactId>
+      <type>tar.gz</type>
     </dependency>
   </dependencies>
 
