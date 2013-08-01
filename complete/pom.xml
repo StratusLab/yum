@@ -35,6 +35,12 @@
       <type>rpm</type>
     </dependency>
     <dependency>
+      <groupId>eu.stratuslab.cimi</groupId>
+      <artifactId>cimi-server-rpm</artifactId>
+      <classifier>${package.os}</classifier>
+      <type>rpm</type>
+    </dependency>
+    <dependency>
       <groupId>eu.stratuslab.marketplace</groupId>
       <artifactId>marketplace-server-rpm</artifactId>
       <type>rpm</type>
