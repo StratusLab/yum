@@ -140,6 +140,11 @@
       <artifactId>stratuslab-client-pypi</artifactId>
       <type>tar.gz</type>
     </dependency>
+    <dependency>
+      <groupId>eu.stratuslab.usecases</groupId>
+      <artifactId>stratuslab-usecases</artifactId>
+      <type>tar.gz</type>
+    </dependency>  
   </dependencies>
 
   <build>
