@@ -213,7 +213,13 @@
       </dependency>
       <dependency>
         <groupId>eu.stratuslab.monitoring</groupId>
-        <artifactId>libvirt-monitor-rpm</artifactId>
+        <artifactId>vmusage-rpm</artifactId>
+        <version>13.05.1-SNAPSHOT</version>
+        <type>rpm</type>
+      </dependency>
+      <dependency>
+        <groupId>eu.stratuslab.monitoring</groupId>
+        <artifactId>consolidation-rpm</artifactId>
         <version>13.05.1-SNAPSHOT</version>
         <type>rpm</type>
       </dependency>
