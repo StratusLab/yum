@@ -146,6 +146,11 @@
       <type>tar.gz</type>
     </dependency>
     <dependency>
+      <groupId>eu.stratuslab.client</groupId>
+      <artifactId>stratuslab-vmc-rpm</artifactId>
+      <type>rpm</type>
+    </dependency>
+    <dependency>
       <groupId>eu.stratuslab.usecases</groupId>
       <artifactId>stratuslab-usecases</artifactId>
       <type>tar.gz</type>
