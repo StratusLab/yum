@@ -151,6 +151,11 @@
       <type>rpm</type>
     </dependency>
     <dependency>
+      <groupId>eu.stratuslab.client</groupId>
+      <artifactId>stratuslab-pdc-rpm</artifactId>
+      <type>rpm</type>
+    </dependency>
+    <dependency>
       <groupId>eu.stratuslab.usecases</groupId>
       <artifactId>stratuslab-usecases</artifactId>
       <type>tar.gz</type>
