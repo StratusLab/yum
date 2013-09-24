@@ -41,6 +41,16 @@
       <type>rpm</type>
     </dependency>
     <dependency>
+      <groupId>eu.stratuslab.cimi</groupId>
+      <artifactId>cimi-client-py-rpm</artifactId>
+      <type>rpm</type>
+    </dependency>
+    <dependency>
+      <groupId>eu.stratuslab.cimi</groupId>
+      <artifactId>stratuslab-cimi-client-py-pypi</artifactId>
+      <type>tar.gz</type>
+    </dependency>
+    <dependency>
       <groupId>eu.stratuslab.marketplace</groupId>
       <artifactId>marketplace-server-rpm</artifactId>
       <type>rpm</type>
