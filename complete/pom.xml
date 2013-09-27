@@ -95,11 +95,6 @@
       <artifactId>consolidation-rpm</artifactId>
       <type>rpm</type>
     </dependency>
-      <dependency>
-        <groupId>eu.stratuslab.monitoring</groupId>
-        <artifactId>libvirt-monitor-rpm</artifactId>
-        <type>rpm</type>
-      </dependency>
     <dependency>
       <groupId>eu.stratuslab.registration</groupId>
       <artifactId>registration-openldap-rpm</artifactId>

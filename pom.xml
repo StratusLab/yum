@@ -243,12 +243,6 @@
       </dependency>
       <dependency>
         <groupId>eu.stratuslab.monitoring</groupId>
-        <artifactId>libvirt-monitor-rpm</artifactId>
-        <version>13.10.0-SNAPSHOT</version>
-        <type>rpm</type>
-      </dependency>
-      <dependency>
-        <groupId>eu.stratuslab.monitoring</groupId>
         <artifactId>consolidation-rpm</artifactId>
         <version>13.10.0-SNAPSHOT</version>
         <type>rpm</type>
