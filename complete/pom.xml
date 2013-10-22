@@ -170,6 +170,13 @@
       <artifactId>stratuslab-usecases</artifactId>
       <type>tar.gz</type>
     </dependency>  
+
+    <!-- EXTERNALS -->
+    <dependency>
+      <groupId>couchbase</groupId>
+      <artifactId>couchbase-server-community</artifactId>
+      <type>rpm</type>
+    </dependency>
   </dependencies>
 
   <build>
