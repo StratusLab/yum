@@ -139,58 +139,58 @@
       <dependency>
         <groupId>eu.stratuslab.authn</groupId>
         <artifactId>authn-config-rpm</artifactId>
-        <version>14.02.0-SNAPSHOT</version>
+        <version>14.03.0-SNAPSHOT</version>
         <classifier>${package.os}</classifier>
         <type>rpm</type>
       </dependency>
       <dependency>
         <groupId>eu.stratuslab.authn</groupId>
         <artifactId>authn-one-proxy-rpm</artifactId>
-        <version>14.02.0-SNAPSHOT</version>
+        <version>14.03.0-SNAPSHOT</version>
         <classifier>${package.os}</classifier>
         <type>rpm</type>
       </dependency>
       <dependency>
         <groupId>eu.stratuslab.cimi</groupId>
         <artifactId>cimi-server-rpm</artifactId>
-        <version>14.02.0-SNAPSHOT</version>
+        <version>14.03.0-SNAPSHOT</version>
         <classifier>${package.os}</classifier>
         <type>rpm</type>
       </dependency>
       <dependency>
         <groupId>eu.stratuslab.cimi</groupId>
         <artifactId>cimi-client-py-rpm</artifactId>
-        <version>14.02.0-SNAPSHOT</version>
+        <version>14.03.0-SNAPSHOT</version>
         <type>rpm</type>
       </dependency>
       <dependency>
         <groupId>eu.stratuslab.cimi</groupId>
         <artifactId>stratuslab-cimi-client-py-pypi</artifactId>
-        <version>14.02.0-SNAPSHOT</version>
+        <version>14.03.0-SNAPSHOT</version>
         <type>tar.gz</type>
       </dependency>
       <dependency>
         <groupId>eu.stratuslab.marketplace</groupId>
         <artifactId>marketplace-server-rpm</artifactId>
-        <version>14.02.0-SNAPSHOT</version>
+        <version>14.03.0-SNAPSHOT</version>
         <type>rpm</type>
       </dependency>
       <dependency>
         <groupId>eu.stratuslab.vmm</groupId>
         <artifactId>one-3.2-StratusLab-rpm</artifactId>
-        <version>14.02.0-SNAPSHOT</version>
+        <version>14.03.0-SNAPSHOT</version>
         <type>rpm</type>
       </dependency>
       <dependency>
         <groupId>eu.stratuslab.vmm</groupId>
         <artifactId>quarantine-cleanup-rpm</artifactId>
-        <version>14.02.0-SNAPSHOT</version>
+        <version>14.03.0-SNAPSHOT</version>
         <type>rpm</type>
       </dependency>
       <dependency>
         <groupId>eu.stratuslab.client</groupId>
         <artifactId>stratuslab-cli-sysadmin-rpm</artifactId>
-        <version>14.02.0-SNAPSHOT</version>
+        <version>14.03.0-SNAPSHOT</version>
         <type>rpm</type>
         <exclusions>
           <exclusion>
@@ -202,130 +202,130 @@
       <dependency>
         <groupId>eu.stratuslab.client</groupId>
         <artifactId>stratuslab-cli-user-rpm</artifactId>
-        <version>14.02.0-SNAPSHOT</version>
+        <version>14.03.0-SNAPSHOT</version>
         <type>rpm</type>
       </dependency>
       <dependency>
         <groupId>eu.stratuslab.client</groupId>
         <artifactId>stratuslab-api-externals-rpm</artifactId>
-        <version>14.02.0-SNAPSHOT</version>
+        <version>14.03.0-SNAPSHOT</version>
         <type>rpm</type>
       </dependency>
       <dependency>
         <groupId>eu.stratuslab.client</groupId>
         <artifactId>stratuslab-api-rpm</artifactId>
-        <version>14.02.0-SNAPSHOT</version>
+        <version>14.03.0-SNAPSHOT</version>
         <type>rpm</type>
       </dependency>
       <dependency>
         <groupId>eu.stratuslab.client</groupId>
         <artifactId>stratuslab-vmc-rpm</artifactId>
-        <version>14.02.0-SNAPSHOT</version>
+        <version>14.03.0-SNAPSHOT</version>
         <type>rpm</type>
       </dependency>
       <dependency>
         <groupId>eu.stratuslab.client</groupId>
         <artifactId>stratuslab-pdc-rpm</artifactId>
-        <version>14.02.0-SNAPSHOT</version>
+        <version>14.03.0-SNAPSHOT</version>
         <type>rpm</type>
       </dependency>
       <dependency>
         <groupId>eu.stratuslab.registration</groupId>
         <artifactId>registration-openldap-rpm</artifactId>
-        <version>14.02.0-SNAPSHOT</version>
+        <version>14.03.0-SNAPSHOT</version>
         <type>rpm</type>
       </dependency>
       <dependency>
         <groupId>eu.stratuslab.monitoring</groupId>
         <artifactId>vmusage-rpm</artifactId>
-        <version>14.02.0-SNAPSHOT</version>
+        <version>14.03.0-SNAPSHOT</version>
         <type>rpm</type>
       </dependency>
       <dependency>
         <groupId>eu.stratuslab.monitoring</groupId>
         <artifactId>consolidation-rpm</artifactId>
-        <version>14.02.0-SNAPSHOT</version>
+        <version>14.03.0-SNAPSHOT</version>
         <type>rpm</type>
       </dependency>
       <dependency>
         <groupId>eu.stratuslab.registration</groupId>
         <artifactId>registration-rpm</artifactId>
-        <version>14.02.0-SNAPSHOT</version>
+        <version>14.03.0-SNAPSHOT</version>
         <type>rpm</type>
       </dependency>
       <dependency>
         <groupId>eu.stratuslab.storage</groupId>
         <artifactId>storage-pdisk-host-rpm</artifactId>
-        <version>14.02.0-SNAPSHOT</version>
+        <version>14.03.0-SNAPSHOT</version>
         <type>rpm</type>
       </dependency>
       <dependency>
         <groupId>eu.stratuslab.storage</groupId>
         <artifactId>storage-pdisk-server-rpm</artifactId>
-        <version>14.02.0-SNAPSHOT</version>
+        <version>14.03.0-SNAPSHOT</version>
         <type>rpm</type>
       </dependency>
       
       <dependency>
         <groupId>eu.stratuslab.image</groupId>
         <artifactId>contextualization-rpm</artifactId>
-        <version>14.02.0-SNAPSHOT</version>
+        <version>14.03.0-SNAPSHOT</version>
         <type>rpm</type>
       </dependency>
       
       <dependency>
         <groupId>eu.stratuslab.image</groupId>
         <artifactId>stratuslab-contextualization</artifactId>
-        <version>14.02.0-SNAPSHOT</version>
+        <version>14.03.0-SNAPSHOT</version>
         <type>tar.gz</type>
       </dependency>
       
       <dependency>
         <groupId>eu.stratuslab.image</groupId>
         <artifactId>stratuslab-contextualization</artifactId>
-        <version>14.02.0-SNAPSHOT</version>
+        <version>14.03.0-SNAPSHOT</version>
         <type>zip</type>
       </dependency>
       
       <dependency>
         <groupId>eu.stratuslab.documentation</groupId>
         <artifactId>stratuslab-docs</artifactId>
-        <version>14.02.0-SNAPSHOT</version>
+        <version>14.03.0-SNAPSHOT</version>
         <type>tar.gz</type>
       </dependency>
       
       <dependency>
         <groupId>eu.stratuslab.documentation</groupId>
         <artifactId>stratuslab-docs</artifactId>
-        <version>14.02.0-SNAPSHOT</version>
+        <version>14.03.0-SNAPSHOT</version>
         <type>zip</type>
       </dependency>
       
       <dependency>
         <groupId>eu.stratuslab.documentation</groupId>
         <artifactId>stratuslab-docs-rpm</artifactId>
-        <version>14.02.0-SNAPSHOT</version>
+        <version>14.03.0-SNAPSHOT</version>
         <type>rpm</type>
       </dependency>
       
       <dependency>
         <groupId>eu.stratuslab.libcloud</groupId>
         <artifactId>stratuslab-libcloud-drivers-pypi</artifactId>
-        <version>14.02.0-SNAPSHOT</version>
+        <version>14.03.0-SNAPSHOT</version>
         <type>tar.gz</type>
       </dependency>
       
       <dependency>
         <groupId>eu.stratuslab.client</groupId>
         <artifactId>stratuslab-client-pypi</artifactId>
-        <version>14.02.0-SNAPSHOT</version>
+        <version>14.03.0-SNAPSHOT</version>
         <type>tar.gz</type>
       </dependency>
       
       <dependency>
         <groupId>eu.stratuslab.usecases</groupId>
         <artifactId>stratuslab-usecases</artifactId>
-        <version>14.02.0-SNAPSHOT</version>
+        <version>14.03.0-SNAPSHOT</version>
         <type>tar.gz</type>
       </dependency>
       
