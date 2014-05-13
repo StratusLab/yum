@@ -55,6 +55,16 @@
       <artifactId>marketplace-server-rpm</artifactId>
       <type>rpm</type>
     </dependency>
+      <dependency>
+        <groupId>eu.stratuslab.utils</groupId>
+        <artifactId>centos6-repo-rpm</artifactId>
+        <type>rpm</type>
+      </dependency>
+      <dependency>
+        <groupId>eu.stratuslab.utils</groupId>
+        <artifactId>nginx-cfg</artifactId>
+        <type>rpm</type>
+      </dependency>
     <dependency>
       <groupId>eu.stratuslab.vmm</groupId>
       <artifactId>one-3.2-StratusLab-rpm</artifactId>
