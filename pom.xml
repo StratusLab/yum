@@ -194,6 +194,12 @@
         <type>rpm</type>
       </dependency>
       <dependency>
+        <groupId>eu.stratuslab.utils</groupId>
+        <artifactId>nginx-load</artifactId>
+        <version>14.06.0_RC4-SNAPSHOT</version>
+        <type>rpm</type>
+      </dependency>
+      <dependency>
         <groupId>eu.stratuslab.vmm</groupId>
         <artifactId>quarantine-cleanup-rpm</artifactId>
         <version>14.06.0_RC4-SNAPSHOT</version>
