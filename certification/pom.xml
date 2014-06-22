@@ -111,17 +111,17 @@
     </dependency>
     <dependency>
       <groupId>eu.stratuslab.documentation</groupId>
-      <artifactId>stratuslab-docs</artifactId>
+      <artifactId>docs</artifactId>
       <type>tar.gz</type>
     </dependency>
     <dependency>
       <groupId>eu.stratuslab.documentation</groupId>
-      <artifactId>stratuslab-docs</artifactId>
+      <artifactId>docs</artifactId>
       <type>zip</type>
     </dependency>
     <dependency>
       <groupId>eu.stratuslab.documentation</groupId>
-      <artifactId>stratuslab-docs-rpm</artifactId>
+      <artifactId>docs</artifactId>
       <type>rpm</type>
     </dependency>
     <dependency>
