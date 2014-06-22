@@ -122,6 +122,7 @@
     <dependency>
       <groupId>eu.stratuslab.documentation</groupId>
       <artifactId>docs</artifactId>
+      <classifier>rpm</classifier>
       <type>rpm</type>
     </dependency>
     <dependency>
