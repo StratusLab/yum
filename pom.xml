@@ -8,7 +8,7 @@
   
   <groupId>eu.stratuslab.yum</groupId>
   <artifactId>yum</artifactId>
-  <version>1.0.0-SNAPSHOT<!-- do not remove comment --></version>
+  <version>14.06.0-SNAPSHOT</version>
   <name>YUM (POM)</name>
 
   <prerequisites>
